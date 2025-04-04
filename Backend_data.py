@@ -12,6 +12,7 @@ from datetime import datetime
 import logging
 import os
 from openpyxl import load_workbook
+import numpy as np
 
 # Base log folder
 log_folder = r'logs'
@@ -441,9 +442,6 @@ def booking_process(bookings, Addressdetails):
     return final_df
 
 
-# In[3]:
-
-
 def process_report(existing_report, generated_report):
     key_col = 'Agraga Booking #'
     exclude_cols = ['ISF Filing', 'CFS', 'Freight Broker', 'Transporter', 'Delivery Quote',
@@ -467,7 +465,20 @@ def process_report(existing_report, generated_report):
     comparisonlog.info(f"Common keys: {len(common_keys)}")
     comparisonlog.info(f"New keys (to be added): {len(new_keys)}")
 
-    # Step 2: Row comparison
+    # Step 2: Ensure compatible data types before assignment
+    for col in compare_cols:
+        final_dtype = existing_df[col].dtype  # Get target column type
+
+        # Replace empty strings with NaN (avoids dtype conflicts)
+        generated_df[col].replace('', np.nan, inplace=True)
+
+        # Convert generated_df column to match existing_df's dtype
+        try:
+            generated_df[col] = generated_df[col].astype(final_dtype, errors='ignore')
+        except Exception as e:
+            comparisonlog.warning(f"Column {col}: Type mismatch ({generated_df[col].dtype} -> {final_dtype}) - {e}")
+
+    # Step 3: Row comparison
     updated_rows = existing_df.loc[common_keys, compare_cols] \
         .compare(generated_df.loc[common_keys, compare_cols], keep_shape=True, keep_equal=False)
 
@@ -479,18 +490,19 @@ def process_report(existing_report, generated_report):
         comparisonlog.info("Sample changes:")
         comparisonlog.info(updated_rows.dropna(how='all').head().to_string())
 
-    # Step 3: Apply updates
+    # Step 4: Apply updates safely
     final_df = existing_df.copy()
     final_df.loc[changed_keys, compare_cols] = generated_df.loc[changed_keys, compare_cols]
 
-    # Step 4: Add new records
+    # Step 5: Add new records
     new_rows_df = generated_df.loc[new_keys]
     final_df = pd.concat([final_df, new_rows_df], axis=0)
 
     comparisonlog.info(f"Final updated report rows: {len(final_df)}")
-    comparisonlog.info('*'*100)
+    comparisonlog.info('*' * 100)
     
     return final_df.reset_index()
+
 
 def close_logger(name):
     logger = logging.getLogger(name)

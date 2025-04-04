@@ -1,10 +1,14 @@
 import streamlit as st
 import pandas as pd
+from view_role import display_view_report
+from msme_role import display_msme_report
+
+st.set_page_config(layout="wide")
 
 @st.cache_data
 def load_all_sheets():
     xls = pd.ExcelFile(r"data/Users.xlsx")
-    print("Sheet names found:", xls.sheet_names)  # Debug line
+    
     sheet_data = {sheet: xls.parse(sheet) for sheet in xls.sheet_names}
     return sheet_data
 
@@ -73,13 +77,13 @@ def show_role_page(email,role):
     if role == "Admin":
         st.write("✅ You can manage everything.")
     elif role == "MSME":
-        st.write("📊 You can oversee MSME operations.")
+        display_msme_report()
     elif role == "Central Ops":
         st.write("🛠️ You can manage Central Ops tasks.")
     elif role == "Credit Control":
         st.write("💳 You have access to Credit Control.")
     elif role == "view":
-        st.write("👀 You have view-only access.")
+        display_view_report()
     else:
         st.warning("Unrecognized role.")
 
