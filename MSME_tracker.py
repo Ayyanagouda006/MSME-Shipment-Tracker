@@ -7,7 +7,7 @@ from centralOps_role import display_centralOps_report
 from admin_role import admin
 
 st.set_page_config(layout="wide")
-
+st.logo(r'data/logo.jpg',size="large")
 @st.cache_data
 def load_all_sheets():
     xls = pd.ExcelFile(r"data/Users.xlsx")
