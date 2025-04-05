@@ -10,13 +10,12 @@ def convert_df_to_excel(df):
     processed_data = output.getvalue()
     return processed_data
 
-def display_msme_report():
+def display_creditcontrol_report():
     try:
         df = pd.read_excel("data/report.xlsx")
-        df["Freight Broker"] = df["Freight Broker"].astype(str).str.strip().fillna('')
-        df["Transporter"] = df["Transporter"].astype(str).str.strip().fillna('')
+        df["DO Release Approved?"] = df["DO Release Approved?"].astype(str).str.strip().fillna('')
 
-        st.write("### 📝 MSME Editable Report")
+        st.write("### 💳 Credit Control Editable Report")
 
         # --- FILTER SECTION ---
         booking_options = sorted(df["Agraga Booking #"].dropna().unique())
@@ -35,13 +34,10 @@ def display_msme_report():
         if selected_customer != "All":
             filtered_df = filtered_df[filtered_df["Customer Name"] == selected_customer]
 
-        # --- DROPDOWN OPTIONS ---
-        freight_brokers = ['Nolan Transportation Group','HeyPrimo','Ex-Freight','YouParcel']
-        transporters = ["A Duie Pyle", "AAA Cooper", "ABF Freight System", "Amazon Freight", "Averitt Express", "California Sierra", "Central Transport", "Daylight Transport", "Estes Express", "Exclusive Transportation", "FedEx", "Forward Air", "Frontline Freight", "GoTo Logistics", "JTS Express", "Old Dominion", "Pitt-Ohio", "R+L Cariers", "Rist Transport", "Road Runner Transportation", "SAIA Motor", "South-Eastern Freight Lines", "Sunset Pacific Transportation", "T Central Transport", "TForce Freight", "Unis Transportation", "Ward Trucking", "WARP", "XPO Freight"]
         # Apply same cleaning to filtered data
-        filtered_df["Freight Broker"] = filtered_df["Freight Broker"].astype(str).str.strip().fillna('')
-        filtered_df["Transporter"] = filtered_df["Transporter"].astype(str).str.strip().fillna('')
-        filtered_df["Delivery Quote"] = pd.to_numeric(filtered_df["Delivery Quote"], errors='coerce').fillna(0.0)
+        filtered_df["DO Release Approved?"] = filtered_df["DO Release Approved?"].astype(str).str.strip().fillna('')
+        filtered_df["DO Release Approved?"] = filtered_df["DO Release Approved?"].map({"Yes": True})
+
 
         # --- EDITABLE TABLE ---
         edited_df = st.data_editor(
@@ -51,33 +47,15 @@ def display_msme_report():
             column_config={
                 "Agraga Booking #": st.column_config.Column(pinned=True),
                 "Customer Name": st.column_config.Column(pinned=True),
-                "Freight Broker": st.column_config.SelectboxColumn(
-                    "Freight Broker",
-                    options=freight_brokers,
-                    required=False,
-                    pinned=True
-                ),
-                "Transporter": st.column_config.SelectboxColumn(
-                    "Transporter",
-                    options=transporters,
-                    required=False,
-                    pinned=True
-                ),
-                "Delivery Quote": st.column_config.NumberColumn(
-                    "Delivery Quote",
-                    step=0.01,
-                    format="$%.2f",
-                    help="in USD",
-                    pinned=True
-                )
+                "DO Release Approved?": st.column_config.CheckboxColumn("DO Release Approved?",pinned=True)
             },
             disabled=[
-                col for col in df.columns if col not in ["Freight Broker", "Transporter", "Delivery Quote"]
+                col for col in df.columns if col not in ["DO Release Approved?"]
             ],
-            key="msme_editor"
+            key="creditcontrol_editor"
         )
-        edited_df["Freight Broker"] = edited_df["Freight Broker"].astype(str).str.strip()
-        edited_df["Transporter"] = edited_df["Transporter"].astype(str).str.strip()
+        edited_df["DO Release Approved?"] = edited_df["DO Release Approved?"].map({True: "Yes", False: ""})
+        edited_df["DO Release Approved?"] = edited_df["DO Release Approved?"].astype(str).str.strip()
 
         # Replace 'nan' strings with empty string
         edited_df.replace("nan", "", inplace=True)
@@ -93,7 +71,7 @@ def display_msme_report():
                 edited_df.index = filtered_df.index  # Maintain correct row alignment
 
                 # Update only the edited columns
-                columns_to_update = ["Freight Broker", "Transporter", "Delivery Quote"]
+                columns_to_update = ["DO Release Approved?"]
                 for col in columns_to_update:
                     # Ensure both DataFrames treat the column as string type
                     original_df[col] = original_df[col].astype(str)
@@ -123,5 +101,5 @@ def display_msme_report():
         )
 
     except Exception as e:
-        st.error(f"Error loading MSME report: {e}")
+        st.error(f"Error loading Credit Control report: {e}")
 

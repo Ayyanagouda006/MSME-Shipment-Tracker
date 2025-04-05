@@ -80,3 +80,39 @@ Columns: [(Customer Name, self), (Customer Name, other), (MBL#, self), (MBL#, ot
 Index: []
 2025-04-04 23:06:55,077 - INFO - Final updated report rows: 107
 2025-04-04 23:06:55,077 - INFO - ****************************************************************************************************
+2025-04-05 11:42:37,825 - INFO - Total rows in existing report: 107
+2025-04-05 11:42:37,825 - INFO - Total rows in generated report: 107
+2025-04-05 11:42:37,826 - INFO - Columns to compare (excluding keys and excluded): ['Customer Name', 'MBL#', 'HBL#', 'Booking Status', 'FBA?', 'Stuffing Date', 'Container #', 'ETD', 'ETA', 'SOB', 'ATA', 'Carrier', 'Consolidator', 'Origin', 'FPOD', 'Delivery Address', 'FBA Code', 'Packages', 'Pallets', 'importClearance', 'Duty Invoice', 'Duty Invoice Status', 'LFD', 'DO Released Date', 'Pick-up Date', 'Delivery Date', 'Updated Status Remarks']
+2025-04-05 11:42:37,830 - INFO - Common keys: 104
+2025-04-05 11:42:37,830 - INFO - New keys (to be added): 0
+2025-04-05 11:42:37,886 - INFO - Changed records: 4
+2025-04-05 11:42:37,886 - INFO - Sample changes:
+2025-04-05 11:42:37,908 - INFO -                    Customer Name       MBL#       HBL#       Booking Status       FBA?       Stuffing Date       Container #        ETD        ETA        SOB        ATA       Carrier       Consolidator       Origin       FPOD       Delivery Address       FBA Code       Packages       Pallets       importClearance       Duty Invoice       Duty Invoice Status        LFD             DO Released Date       Pick-up Date       Delivery Date       Updated Status Remarks      
+                            self other self other self other           self other self other          self other        self other self other self other self other self other    self other         self other   self other self other             self other     self other     self other    self other            self other         self other                self other self       other             self other         self other          self other                   self other
+Agraga Booking #                                                                                                                                                                                                                                                                                                                                                                                                                                                                         
+2501LCLCMM05850007           NaN   NaN  NaN   NaN  NaN   NaN            NaN   NaN  NaN   NaN           NaN   NaN         NaN   NaN  NaN   NaN  NaN   NaN  NaN   NaN  NaN   NaN     NaN   NaN          NaN   NaN    NaN   NaN  NaN   NaN              NaN   NaN      NaN   NaN      NaN   NaN     NaN   NaN             NaN   NaN          NaN   NaN                 NaN   NaN  NaN  15-03-2025              NaN   NaN          NaN   NaN           NaN   NaN                    NaN   NaN
+2501LCLCEN04790013           NaN   NaN  NaN   NaN  NaN   NaN            NaN   NaN  NaN   NaN           NaN   NaN         NaN   NaN  NaN   NaN  NaN   NaN  NaN   NaN  NaN   NaN     NaN   NaN          NaN   NaN    NaN   NaN  NaN   NaN              NaN   NaN      NaN   NaN      NaN   NaN     NaN   NaN             NaN   NaN          NaN   NaN                 NaN   NaN  NaN  15-03-2025              NaN   NaN          NaN   NaN           NaN   NaN                    NaN   NaN
+2501LCLCMM06300003           NaN   NaN  NaN   NaN  NaN   NaN            NaN   NaN  NaN   NaN           NaN   NaN         NaN   NaN  NaN   NaN  NaN   NaN  NaN   NaN  NaN   NaN     NaN   NaN          NaN   NaN    NaN   NaN  NaN   NaN              NaN   NaN      NaN   NaN      NaN   NaN     NaN   NaN             NaN   NaN          NaN   NaN                 NaN   NaN  NaN  13-03-2025              NaN   NaN          NaN   NaN           NaN   NaN                    NaN   NaN
+2501LCLCMM06300003           NaN   NaN  NaN   NaN  NaN   NaN            NaN   NaN  NaN   NaN           NaN   NaN         NaN   NaN  NaN   NaN  NaN   NaN  NaN   NaN  NaN   NaN     NaN   NaN          NaN   NaN    NaN   NaN  NaN   NaN              NaN   NaN      NaN   NaN      NaN   NaN     NaN   NaN             NaN   NaN          NaN   NaN                 NaN   NaN  NaN  13-03-2025              NaN   NaN          NaN   NaN           NaN   NaN                    NaN   NaN
+2025-04-05 11:42:37,924 - INFO - Final updated report rows: 107
+2025-04-05 11:42:37,925 - INFO - ****************************************************************************************************
+2025-04-05 14:36:16,647 - INFO - Total rows in existing report: 0
+2025-04-05 14:36:16,647 - INFO - Total rows in generated report: 107
+2025-04-05 14:36:16,647 - INFO - Columns to compare (excluding keys and excluded): ['Customer Name', 'MBL#', 'HBL#', 'Booking Status', 'FBA?', 'Stuffing Date', 'Container #', 'ETD', 'ETA', 'SOB', 'ATA', 'Carrier', 'Consolidator', 'Origin', 'FPOD', 'Delivery Address', 'FBA Code', 'Packages', 'Pallets', 'importClearance', 'Duty Invoice', 'Duty Invoice Status', 'LFD', 'DO Released Date', 'Pick-up Date', 'Delivery Date', 'Updated Status Remarks']
+2025-04-05 14:36:16,650 - INFO - Common keys: 0
+2025-04-05 14:36:16,650 - INFO - New keys (to be added): 104
+2025-04-05 14:36:16,714 - INFO - Changed records: 0
+2025-04-05 14:36:16,734 - INFO - Final updated report rows: 107
+2025-04-05 14:36:16,735 - INFO - ****************************************************************************************************
+2025-04-05 15:07:42,138 - INFO - Total rows in existing report: 107
+2025-04-05 15:07:42,138 - INFO - Total rows in generated report: 107
+2025-04-05 15:07:42,139 - INFO - Columns to compare (excluding keys and excluded): ['Customer Name', 'MBL#', 'HBL#', 'Booking Status', 'FBA?', 'Stuffing Date', 'Container #', 'ETD', 'ETA', 'SOB', 'ATA', 'Carrier', 'Consolidator', 'Origin', 'FPOD', 'Delivery Address', 'FBA Code', 'Packages', 'Pallets', 'importClearance', 'Duty Invoice', 'Duty Invoice Status', 'LFD', 'DO Released Date', 'Pick-up Date', 'Delivery Date', 'Updated Status Remarks']
+2025-04-05 15:07:42,140 - INFO - Common keys: 104
+2025-04-05 15:07:42,141 - INFO - New keys (to be added): 0
+2025-04-05 15:07:42,216 - INFO - Changed records: 0
+2025-04-05 15:07:42,216 - INFO - Sample changes:
+2025-04-05 15:07:42,230 - INFO - Empty DataFrame
+Columns: [(Customer Name, self), (Customer Name, other), (MBL#, self), (MBL#, other), (HBL#, self), (HBL#, other), (Booking Status, self), (Booking Status, other), (FBA?, self), (FBA?, other), (Stuffing Date, self), (Stuffing Date, other), (Container #, self), (Container #, other), (ETD, self), (ETD, other), (ETA, self), (ETA, other), (SOB, self), (SOB, other), (ATA, self), (ATA, other), (Carrier, self), (Carrier, other), (Consolidator, self), (Consolidator, other), (Origin, self), (Origin, other), (FPOD, self), (FPOD, other), (Delivery Address, self), (Delivery Address, other), (FBA Code, self), (FBA Code, other), (Packages, self), (Packages, other), (Pallets, self), (Pallets, other), (importClearance, self), (importClearance, other), (Duty Invoice, self), (Duty Invoice, other), (Duty Invoice Status, self), (Duty Invoice Status, other), (LFD, self), (LFD, other), (DO Released Date, self), (DO Released Date, other), (Pick-up Date, self), (Pick-up Date, other), (Delivery Date, self), (Delivery Date, other), (Updated Status Remarks, self), (Updated Status Remarks, other)]
+Index: []
+2025-04-05 15:07:42,244 - INFO - Final updated report rows: 107
+2025-04-05 15:07:42,244 - INFO - ****************************************************************************************************

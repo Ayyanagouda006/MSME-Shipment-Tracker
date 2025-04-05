@@ -2,6 +2,9 @@ import streamlit as st
 import pandas as pd
 from view_role import display_view_report
 from msme_role import display_msme_report
+from creditcontrol_role import display_creditcontrol_report
+from centralOps_role import display_centralOps_report
+from admin_role import admin
 
 st.set_page_config(layout="wide")
 
@@ -46,7 +49,11 @@ def get_user_role(email, sheets):
 
 
 def main():
-    st.title("🔐 Role-Based Access App")
+    st.markdown("""
+    <h1 style='text-align: center; color: #1f77b4;'>🚛 MSME Shipment Tracker</h1>
+    <p style='text-align: center; color: grey;'>Virya Logistics Technologies Pvt Ltd</p>
+""", unsafe_allow_html=True)
+
     sheets = load_all_sheets()
 
     # Initialize session state if not set
@@ -75,13 +82,13 @@ def show_role_page(email,role):
     st.subheader(f"Welcome, {email.upper()}!")
 
     if role == "Admin":
-        st.write("✅ You can manage everything.")
+        admin()
     elif role == "MSME":
         display_msme_report()
     elif role == "Central Ops":
-        st.write("🛠️ You can manage Central Ops tasks.")
+        display_centralOps_report()
     elif role == "Credit Control":
-        st.write("💳 You have access to Credit Control.")
+        display_creditcontrol_report()
     elif role == "view":
         display_view_report()
     else:
