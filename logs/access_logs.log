@@ -1,0 +1,330 @@
+2025-04-06 15:37:26 | INFO |  ayyanagouda.r@agraga.com | Login Attempt | SUCCESS
+2025-04-06 15:37:26 | INFO |  ayyanagouda.r@agraga.com | Role Assigned: Admin | SUCCESS
+2025-04-06 15:37:26 | INFO |  ayyanagouda.r@agraga.com | Login Successful | SUCCESS
+2025-04-06 15:37:52 | INFO |  anshul.marele@agraga.com | Login Attempt | SUCCESS
+2025-04-06 15:37:52 | INFO |  anshul.marele@agraga.com | Role Assigned: MSME | SUCCESS
+2025-04-06 15:37:52 | INFO |  anshul.marele@agraga.com | Login Successful | SUCCESS
+2025-04-06 15:42:10 | INFO | User: anshul.marele@agraga.com | Booking ID: 2501LCLCMM05850007 | Field: Freight Broker | Old: nan | New: Nolan Transportation Group
+2025-04-06 15:42:10 | INFO | User: anshul.marele@agraga.com | Booking ID: 2501LCLCMM05850007 | Field: Transporter | Old: nan | New: A Duie Pyle
+2025-04-06 15:42:10 | INFO | User: anshul.marele@agraga.com | Booking ID: 2501LCLCMM05850007 | Field: Delivery Quote | Old: nan | New: 200.0
+2025-04-06 15:42:10 | INFO | User: anshul.marele@agraga.com | Booking ID: 2501LCLCEN04790013 | Field: Freight Broker | Old: nan | New: 
+2025-04-06 15:42:10 | INFO | User: anshul.marele@agraga.com | Booking ID: 2501LCLCEN04790013 | Field: Transporter | Old: nan | New: 
+2025-04-06 15:42:10 | INFO | User: anshul.marele@agraga.com | Booking ID: 2501LCLCEN04790013 | Field: Delivery Quote | Old: nan | New: 0.0
+2025-04-06 15:42:10 | INFO | User: anshul.marele@agraga.com | Booking ID: 2501LCLCMM02460018 | Field: Freight Broker | Old: nan | New: 
+2025-04-06 15:42:10 | INFO | User: anshul.marele@agraga.com | Booking ID: 2501LCLCMM02460018 | Field: Transporter | Old: nan | New: 
+2025-04-06 15:42:10 | INFO | User: anshul.marele@agraga.com | Booking ID: 2501LCLCMM02460018 | Field: Delivery Quote | Old: nan | New: 0.0
+2025-04-06 15:42:10 | INFO | User: anshul.marele@agraga.com | Booking ID: 2501LCLCMM06300003 | Field: Freight Broker | Old: nan | New: 
+2025-04-06 15:42:10 | INFO | User: anshul.marele@agraga.com | Booking ID: 2501LCLCMM06300003 | Field: Transporter | Old: nan | New: 
+2025-04-06 15:42:10 | INFO | User: anshul.marele@agraga.com | Booking ID: 2501LCLCMM06300003 | Field: Delivery Quote | Old: nan | New: 0.0
+2025-04-06 15:42:10 | INFO | User: anshul.marele@agraga.com | Booking ID: 2501LCLCMM06300003 | Field: Freight Broker | Old: nan | New: 
+2025-04-06 15:42:10 | INFO | User: anshul.marele@agraga.com | Booking ID: 2501LCLCMM06300003 | Field: Transporter | Old: nan | New: 
+2025-04-06 15:42:10 | INFO | User: anshul.marele@agraga.com | Booking ID: 2501LCLCMM06300003 | Field: Delivery Quote | Old: nan | New: 0.0
+2025-04-06 15:42:10 | INFO | User: anshul.marele@agraga.com | Booking ID: 2501LCLCMM06300003 | Field: Freight Broker | Old: nan | New: 
+2025-04-06 15:42:10 | INFO | User: anshul.marele@agraga.com | Booking ID: 2501LCLCMM06300003 | Field: Transporter | Old: nan | New: 
+2025-04-06 15:42:10 | INFO | User: anshul.marele@agraga.com | Booking ID: 2501LCLCMM06300003 | Field: Delivery Quote | Old: nan | New: 0.0
+2025-04-06 15:42:10 | INFO | User: anshul.marele@agraga.com | Booking ID: 2501LCLCMM00430022 | Field: Freight Broker | Old: nan | New: 
+2025-04-06 15:42:10 | INFO | User: anshul.marele@agraga.com | Booking ID: 2501LCLCMM00430022 | Field: Transporter | Old: nan | New: 
+2025-04-06 15:42:10 | INFO | User: anshul.marele@agraga.com | Booking ID: 2501LCLCMM00430022 | Field: Delivery Quote | Old: nan | New: 0.0
+2025-04-06 15:42:10 | INFO | User: anshul.marele@agraga.com | Booking ID: 2501LCLCEN04790016 | Field: Freight Broker | Old: nan | New: 
+2025-04-06 15:42:10 | INFO | User: anshul.marele@agraga.com | Booking ID: 2501LCLCEN04790016 | Field: Transporter | Old: nan | New: 
+2025-04-06 15:42:10 | INFO | User: anshul.marele@agraga.com | Booking ID: 2501LCLCEN04790016 | Field: Delivery Quote | Old: nan | New: 0.0
+2025-04-06 15:42:10 | INFO | User: anshul.marele@agraga.com | Booking ID: 2501LCLCMM06370002 | Field: Freight Broker | Old: nan | New: 
+2025-04-06 15:42:10 | INFO | User: anshul.marele@agraga.com | Booking ID: 2501LCLCMM06370002 | Field: Transporter | Old: nan | New: 
+2025-04-06 15:42:10 | INFO | User: anshul.marele@agraga.com | Booking ID: 2501LCLCMM06370002 | Field: Delivery Quote | Old: nan | New: 0.0
+2025-04-06 15:42:10 | INFO | User: anshul.marele@agraga.com | Booking ID: 2501LCLCMM02460019 | Field: Freight Broker | Old: nan | New: 
+2025-04-06 15:42:10 | INFO | User: anshul.marele@agraga.com | Booking ID: 2501LCLCMM02460019 | Field: Transporter | Old: nan | New: 
+2025-04-06 15:42:10 | INFO | User: anshul.marele@agraga.com | Booking ID: 2501LCLCMM02460019 | Field: Delivery Quote | Old: nan | New: 0.0
+2025-04-06 15:42:10 | INFO | User: anshul.marele@agraga.com | Booking ID: 2501LCLCEN04490014 | Field: Freight Broker | Old: nan | New: 
+2025-04-06 15:42:10 | INFO | User: anshul.marele@agraga.com | Booking ID: 2501LCLCEN04490014 | Field: Transporter | Old: nan | New: 
+2025-04-06 15:42:10 | INFO | User: anshul.marele@agraga.com | Booking ID: 2501LCLCEN04490014 | Field: Delivery Quote | Old: nan | New: 0.0
+2025-04-06 15:42:10 | INFO | User: anshul.marele@agraga.com | Booking ID: 2501LCLCMM04850005 | Field: Freight Broker | Old: nan | New: 
+2025-04-06 15:42:10 | INFO | User: anshul.marele@agraga.com | Booking ID: 2501LCLCMM04850005 | Field: Transporter | Old: nan | New: 
+2025-04-06 15:42:10 | INFO | User: anshul.marele@agraga.com | Booking ID: 2501LCLCMM04850005 | Field: Delivery Quote | Old: nan | New: 0.0
+2025-04-06 15:42:10 | INFO | User: anshul.marele@agraga.com | Booking ID: 2501LCLCMM06410003 | Field: Freight Broker | Old: nan | New: 
+2025-04-06 15:42:10 | INFO | User: anshul.marele@agraga.com | Booking ID: 2501LCLCMM06410003 | Field: Transporter | Old: nan | New: 
+2025-04-06 15:42:10 | INFO | User: anshul.marele@agraga.com | Booking ID: 2501LCLCMM06410003 | Field: Delivery Quote | Old: nan | New: 0.0
+2025-04-06 15:42:10 | INFO | User: anshul.marele@agraga.com | Booking ID: 2501LCLCEN04790018 | Field: Freight Broker | Old: nan | New: 
+2025-04-06 15:42:10 | INFO | User: anshul.marele@agraga.com | Booking ID: 2501LCLCEN04790018 | Field: Transporter | Old: nan | New: 
+2025-04-06 15:42:10 | INFO | User: anshul.marele@agraga.com | Booking ID: 2501LCLCEN04790018 | Field: Delivery Quote | Old: nan | New: 0.0
+2025-04-06 15:42:10 | INFO | User: anshul.marele@agraga.com | Booking ID: 2501LCLCMM00820019 | Field: Freight Broker | Old: nan | New: 
+2025-04-06 15:42:10 | INFO | User: anshul.marele@agraga.com | Booking ID: 2501LCLCMM00820019 | Field: Transporter | Old: nan | New: 
+2025-04-06 15:42:10 | INFO | User: anshul.marele@agraga.com | Booking ID: 2501LCLCMM00820019 | Field: Delivery Quote | Old: nan | New: 0.0
+2025-04-06 15:42:10 | INFO | User: anshul.marele@agraga.com | Booking ID: 2501LCLCMM05820008 | Field: Freight Broker | Old: nan | New: 
+2025-04-06 15:42:10 | INFO | User: anshul.marele@agraga.com | Booking ID: 2501LCLCMM05820008 | Field: Transporter | Old: nan | New: 
+2025-04-06 15:42:10 | INFO | User: anshul.marele@agraga.com | Booking ID: 2501LCLCMM05820008 | Field: Delivery Quote | Old: nan | New: 0.0
+2025-04-06 15:42:10 | INFO | User: anshul.marele@agraga.com | Booking ID: 2501LCLCMM02460022 | Field: Freight Broker | Old: nan | New: 
+2025-04-06 15:42:10 | INFO | User: anshul.marele@agraga.com | Booking ID: 2501LCLCMM02460022 | Field: Transporter | Old: nan | New: 
+2025-04-06 15:42:10 | INFO | User: anshul.marele@agraga.com | Booking ID: 2501LCLCMM02460022 | Field: Delivery Quote | Old: nan | New: 0.0
+2025-04-06 15:42:10 | INFO | User: anshul.marele@agraga.com | Booking ID: 2501LCLCMM05470020 | Field: Freight Broker | Old: nan | New: 
+2025-04-06 15:42:10 | INFO | User: anshul.marele@agraga.com | Booking ID: 2501LCLCMM05470020 | Field: Transporter | Old: nan | New: 
+2025-04-06 15:42:10 | INFO | User: anshul.marele@agraga.com | Booking ID: 2501LCLCMM05470020 | Field: Delivery Quote | Old: nan | New: 0.0
+2025-04-06 15:42:10 | INFO | User: anshul.marele@agraga.com | Booking ID: 2501LCLCMM06440006 | Field: Freight Broker | Old: nan | New: 
+2025-04-06 15:42:10 | INFO | User: anshul.marele@agraga.com | Booking ID: 2501LCLCMM06440006 | Field: Transporter | Old: nan | New: 
+2025-04-06 15:42:10 | INFO | User: anshul.marele@agraga.com | Booking ID: 2501LCLCMM06440006 | Field: Delivery Quote | Old: nan | New: 0.0
+2025-04-06 15:42:10 | INFO | User: anshul.marele@agraga.com | Booking ID: 2501LCLCMM00780022 | Field: Freight Broker | Old: nan | New: 
+2025-04-06 15:42:10 | INFO | User: anshul.marele@agraga.com | Booking ID: 2501LCLCMM00780022 | Field: Transporter | Old: nan | New: 
+2025-04-06 15:42:10 | INFO | User: anshul.marele@agraga.com | Booking ID: 2501LCLCMM00780022 | Field: Delivery Quote | Old: nan | New: 0.0
+2025-04-06 15:42:10 | INFO | User: anshul.marele@agraga.com | Booking ID: 2501LCLCMM06400002 | Field: Freight Broker | Old: nan | New: 
+2025-04-06 15:42:10 | INFO | User: anshul.marele@agraga.com | Booking ID: 2501LCLCMM06400002 | Field: Transporter | Old: nan | New: 
+2025-04-06 15:42:10 | INFO | User: anshul.marele@agraga.com | Booking ID: 2501LCLCMM06400002 | Field: Delivery Quote | Old: nan | New: 0.0
+2025-04-06 15:42:10 | INFO | User: anshul.marele@agraga.com | Booking ID: 2501LCLCMM05870011 | Field: Freight Broker | Old: nan | New: 
+2025-04-06 15:42:10 | INFO | User: anshul.marele@agraga.com | Booking ID: 2501LCLCMM05870011 | Field: Transporter | Old: nan | New: 
+2025-04-06 15:42:10 | INFO | User: anshul.marele@agraga.com | Booking ID: 2501LCLCMM05870011 | Field: Delivery Quote | Old: nan | New: 0.0
+2025-04-06 15:42:10 | INFO | User: anshul.marele@agraga.com | Booking ID: 2501LCLCMM00430024 | Field: Freight Broker | Old: nan | New: 
+2025-04-06 15:42:10 | INFO | User: anshul.marele@agraga.com | Booking ID: 2501LCLCMM00430024 | Field: Transporter | Old: nan | New: 
+2025-04-06 15:42:10 | INFO | User: anshul.marele@agraga.com | Booking ID: 2501LCLCMM00430024 | Field: Delivery Quote | Old: nan | New: 0.0
+2025-04-06 15:42:10 | INFO | User: anshul.marele@agraga.com | Booking ID: 2501LCLCMM04660007 | Field: Freight Broker | Old: nan | New: 
+2025-04-06 15:42:10 | INFO | User: anshul.marele@agraga.com | Booking ID: 2501LCLCMM04660007 | Field: Transporter | Old: nan | New: 
+2025-04-06 15:42:10 | INFO | User: anshul.marele@agraga.com | Booking ID: 2501LCLCMM04660007 | Field: Delivery Quote | Old: nan | New: 0.0
+2025-04-06 15:42:10 | INFO | User: anshul.marele@agraga.com | Booking ID: 2501LCLCMM05470024 | Field: Freight Broker | Old: nan | New: 
+2025-04-06 15:42:10 | INFO | User: anshul.marele@agraga.com | Booking ID: 2501LCLCMM05470024 | Field: Transporter | Old: nan | New: 
+2025-04-06 15:42:10 | INFO | User: anshul.marele@agraga.com | Booking ID: 2501LCLCMM05470024 | Field: Delivery Quote | Old: nan | New: 0.0
+2025-04-06 15:42:10 | INFO | User: anshul.marele@agraga.com | Booking ID: 2501LCLCEN04790020 | Field: Freight Broker | Old: nan | New: 
+2025-04-06 15:42:10 | INFO | User: anshul.marele@agraga.com | Booking ID: 2501LCLCEN04790020 | Field: Transporter | Old: nan | New: 
+2025-04-06 15:42:10 | INFO | User: anshul.marele@agraga.com | Booking ID: 2501LCLCEN04790020 | Field: Delivery Quote | Old: nan | New: 0.0
+2025-04-06 15:42:10 | INFO | User: anshul.marele@agraga.com | Booking ID: 2501LCLCMM00820021 | Field: Freight Broker | Old: nan | New: 
+2025-04-06 15:42:10 | INFO | User: anshul.marele@agraga.com | Booking ID: 2501LCLCMM00820021 | Field: Transporter | Old: nan | New: 
+2025-04-06 15:42:10 | INFO | User: anshul.marele@agraga.com | Booking ID: 2501LCLCMM00820021 | Field: Delivery Quote | Old: nan | New: 0.0
+2025-04-06 15:42:10 | INFO | User: anshul.marele@agraga.com | Booking ID: 2501LCLCEN04470006 | Field: Freight Broker | Old: nan | New: 
+2025-04-06 15:42:10 | INFO | User: anshul.marele@agraga.com | Booking ID: 2501LCLCEN04470006 | Field: Transporter | Old: nan | New: 
+2025-04-06 15:42:10 | INFO | User: anshul.marele@agraga.com | Booking ID: 2501LCLCEN04470006 | Field: Delivery Quote | Old: nan | New: 0.0
+2025-04-06 15:42:10 | INFO | User: anshul.marele@agraga.com | Booking ID: 2501LCLCMM02460023 | Field: Freight Broker | Old: nan | New: 
+2025-04-06 15:42:10 | INFO | User: anshul.marele@agraga.com | Booking ID: 2501LCLCMM02460023 | Field: Transporter | Old: nan | New: 
+2025-04-06 15:42:10 | INFO | User: anshul.marele@agraga.com | Booking ID: 2501LCLCMM02460023 | Field: Delivery Quote | Old: nan | New: 0.0
+2025-04-06 15:42:10 | INFO | User: anshul.marele@agraga.com | Booking ID: 2501LCLCMM02460024 | Field: Freight Broker | Old: nan | New: 
+2025-04-06 15:42:10 | INFO | User: anshul.marele@agraga.com | Booking ID: 2501LCLCMM02460024 | Field: Transporter | Old: nan | New: 
+2025-04-06 15:42:10 | INFO | User: anshul.marele@agraga.com | Booking ID: 2501LCLCMM02460024 | Field: Delivery Quote | Old: nan | New: 0.0
+2025-04-06 15:42:10 | INFO | User: anshul.marele@agraga.com | Booking ID: 2501LCLCMM03400022 | Field: Freight Broker | Old: nan | New: 
+2025-04-06 15:42:10 | INFO | User: anshul.marele@agraga.com | Booking ID: 2501LCLCMM03400022 | Field: Transporter | Old: nan | New: 
+2025-04-06 15:42:10 | INFO | User: anshul.marele@agraga.com | Booking ID: 2501LCLCMM03400022 | Field: Delivery Quote | Old: nan | New: 0.0
+2025-04-06 15:42:10 | INFO | User: anshul.marele@agraga.com | Booking ID: 2501LCLCMM05470028 | Field: Freight Broker | Old: nan | New: 
+2025-04-06 15:42:10 | INFO | User: anshul.marele@agraga.com | Booking ID: 2501LCLCMM05470028 | Field: Transporter | Old: nan | New: 
+2025-04-06 15:42:10 | INFO | User: anshul.marele@agraga.com | Booking ID: 2501LCLCMM05470028 | Field: Delivery Quote | Old: nan | New: 0.0
+2025-04-06 15:42:10 | INFO | User: anshul.marele@agraga.com | Booking ID: 2501LCLCMM06410009 | Field: Freight Broker | Old: nan | New: 
+2025-04-06 15:42:10 | INFO | User: anshul.marele@agraga.com | Booking ID: 2501LCLCMM06410009 | Field: Transporter | Old: nan | New: 
+2025-04-06 15:42:10 | INFO | User: anshul.marele@agraga.com | Booking ID: 2501LCLCMM06410009 | Field: Delivery Quote | Old: nan | New: 0.0
+2025-04-06 15:42:10 | INFO | User: anshul.marele@agraga.com | Booking ID: 2501LCLCMM00780024 | Field: Freight Broker | Old: nan | New: 
+2025-04-06 15:42:10 | INFO | User: anshul.marele@agraga.com | Booking ID: 2501LCLCMM00780024 | Field: Transporter | Old: nan | New: 
+2025-04-06 15:42:10 | INFO | User: anshul.marele@agraga.com | Booking ID: 2501LCLCMM00780024 | Field: Delivery Quote | Old: nan | New: 0.0
+2025-04-06 15:42:10 | INFO | User: anshul.marele@agraga.com | Booking ID: 2501LCLCEN05850014 | Field: Freight Broker | Old: nan | New: 
+2025-04-06 15:42:10 | INFO | User: anshul.marele@agraga.com | Booking ID: 2501LCLCEN05850014 | Field: Transporter | Old: nan | New: 
+2025-04-06 15:42:10 | INFO | User: anshul.marele@agraga.com | Booking ID: 2501LCLCEN05850014 | Field: Delivery Quote | Old: nan | New: 0.0
+2025-04-06 15:42:10 | INFO | User: anshul.marele@agraga.com | Booking ID: 2501LCLCMM02460025 | Field: Freight Broker | Old: nan | New: 
+2025-04-06 15:42:10 | INFO | User: anshul.marele@agraga.com | Booking ID: 2501LCLCMM02460025 | Field: Transporter | Old: nan | New: 
+2025-04-06 15:42:10 | INFO | User: anshul.marele@agraga.com | Booking ID: 2501LCLCMM02460025 | Field: Delivery Quote | Old: nan | New: 0.0
+2025-04-06 15:42:10 | INFO | User: anshul.marele@agraga.com | Booking ID: 2501LCLCMM00820023 | Field: Freight Broker | Old: nan | New: 
+2025-04-06 15:42:10 | INFO | User: anshul.marele@agraga.com | Booking ID: 2501LCLCMM00820023 | Field: Transporter | Old: nan | New: 
+2025-04-06 15:42:10 | INFO | User: anshul.marele@agraga.com | Booking ID: 2501LCLCMM00820023 | Field: Delivery Quote | Old: nan | New: 0.0
+2025-04-06 15:42:10 | INFO | User: anshul.marele@agraga.com | Booking ID: 2501LCLCEN04790025 | Field: Freight Broker | Old: nan | New: 
+2025-04-06 15:42:10 | INFO | User: anshul.marele@agraga.com | Booking ID: 2501LCLCEN04790025 | Field: Transporter | Old: nan | New: 
+2025-04-06 15:42:10 | INFO | User: anshul.marele@agraga.com | Booking ID: 2501LCLCEN04790025 | Field: Delivery Quote | Old: nan | New: 0.0
+2025-04-06 15:42:10 | INFO | User: anshul.marele@agraga.com | Booking ID: 2501LCLCMM02460026 | Field: Freight Broker | Old: nan | New: 
+2025-04-06 15:42:10 | INFO | User: anshul.marele@agraga.com | Booking ID: 2501LCLCMM02460026 | Field: Transporter | Old: nan | New: 
+2025-04-06 15:42:10 | INFO | User: anshul.marele@agraga.com | Booking ID: 2501LCLCMM02460026 | Field: Delivery Quote | Old: nan | New: 0.0
+2025-04-06 15:42:10 | INFO | User: anshul.marele@agraga.com | Booking ID: 2501LCLCMM02460027 | Field: Freight Broker | Old: nan | New: 
+2025-04-06 15:42:10 | INFO | User: anshul.marele@agraga.com | Booking ID: 2501LCLCMM02460027 | Field: Transporter | Old: nan | New: 
+2025-04-06 15:42:10 | INFO | User: anshul.marele@agraga.com | Booking ID: 2501LCLCMM02460027 | Field: Delivery Quote | Old: nan | New: 0.0
+2025-04-06 15:42:10 | INFO | User: anshul.marele@agraga.com | Booking ID: 2501LCLCEN04470034 | Field: Freight Broker | Old: nan | New: 
+2025-04-06 15:42:10 | INFO | User: anshul.marele@agraga.com | Booking ID: 2501LCLCEN04470034 | Field: Transporter | Old: nan | New: 
+2025-04-06 15:42:10 | INFO | User: anshul.marele@agraga.com | Booking ID: 2501LCLCEN04470034 | Field: Delivery Quote | Old: nan | New: 0.0
+2025-04-06 15:42:10 | INFO | User: anshul.marele@agraga.com | Booking ID: 2501LCLCMM05870014 | Field: Freight Broker | Old: nan | New: 
+2025-04-06 15:42:10 | INFO | User: anshul.marele@agraga.com | Booking ID: 2501LCLCMM05870014 | Field: Transporter | Old: nan | New: 
+2025-04-06 15:42:10 | INFO | User: anshul.marele@agraga.com | Booking ID: 2501LCLCMM05870014 | Field: Delivery Quote | Old: nan | New: 0.0
+2025-04-06 15:42:10 | INFO | User: anshul.marele@agraga.com | Booking ID: 2501LCLCMM06080021 | Field: Freight Broker | Old: nan | New: 
+2025-04-06 15:42:10 | INFO | User: anshul.marele@agraga.com | Booking ID: 2501LCLCMM06080021 | Field: Transporter | Old: nan | New: 
+2025-04-06 15:42:10 | INFO | User: anshul.marele@agraga.com | Booking ID: 2501LCLCMM06080021 | Field: Delivery Quote | Old: nan | New: 0.0
+2025-04-06 15:42:10 | INFO | User: anshul.marele@agraga.com | Booking ID: 2501LCLCMM06080023 | Field: Freight Broker | Old: nan | New: 
+2025-04-06 15:42:10 | INFO | User: anshul.marele@agraga.com | Booking ID: 2501LCLCMM06080023 | Field: Transporter | Old: nan | New: 
+2025-04-06 15:42:10 | INFO | User: anshul.marele@agraga.com | Booking ID: 2501LCLCMM06080023 | Field: Delivery Quote | Old: nan | New: 0.0
+2025-04-06 15:42:10 | INFO | User: anshul.marele@agraga.com | Booking ID: 2502LCLCMM05990005 | Field: Freight Broker | Old: nan | New: 
+2025-04-06 15:42:10 | INFO | User: anshul.marele@agraga.com | Booking ID: 2502LCLCMM05990005 | Field: Transporter | Old: nan | New: 
+2025-04-06 15:42:10 | INFO | User: anshul.marele@agraga.com | Booking ID: 2502LCLCMM05990005 | Field: Delivery Quote | Old: nan | New: 0.0
+2025-04-06 15:42:10 | INFO | User: anshul.marele@agraga.com | Booking ID: 2502LCLCMM06440009 | Field: Freight Broker | Old: nan | New: 
+2025-04-06 15:42:10 | INFO | User: anshul.marele@agraga.com | Booking ID: 2502LCLCMM06440009 | Field: Transporter | Old: nan | New: 
+2025-04-06 15:42:10 | INFO | User: anshul.marele@agraga.com | Booking ID: 2502LCLCMM06440009 | Field: Delivery Quote | Old: nan | New: 0.0
+2025-04-06 15:42:10 | INFO | User: anshul.marele@agraga.com | Booking ID: 2502LCLCMM01020002 | Field: Freight Broker | Old: nan | New: 
+2025-04-06 15:42:10 | INFO | User: anshul.marele@agraga.com | Booking ID: 2502LCLCMM01020002 | Field: Transporter | Old: nan | New: 
+2025-04-06 15:42:10 | INFO | User: anshul.marele@agraga.com | Booking ID: 2502LCLCMM01020002 | Field: Delivery Quote | Old: nan | New: 0.0
+2025-04-06 15:42:10 | INFO | User: anshul.marele@agraga.com | Booking ID: 2502LCLCMM06370004 | Field: Freight Broker | Old: nan | New: 
+2025-04-06 15:42:10 | INFO | User: anshul.marele@agraga.com | Booking ID: 2502LCLCMM06370004 | Field: Transporter | Old: nan | New: 
+2025-04-06 15:42:10 | INFO | User: anshul.marele@agraga.com | Booking ID: 2502LCLCMM06370004 | Field: Delivery Quote | Old: nan | New: 0.0
+2025-04-06 15:42:10 | INFO | User: anshul.marele@agraga.com | Booking ID: 2502LCLCMM05970009 | Field: Freight Broker | Old: nan | New: 
+2025-04-06 15:42:10 | INFO | User: anshul.marele@agraga.com | Booking ID: 2502LCLCMM05970009 | Field: Transporter | Old: nan | New: 
+2025-04-06 15:42:10 | INFO | User: anshul.marele@agraga.com | Booking ID: 2502LCLCMM05970009 | Field: Delivery Quote | Old: nan | New: 0.0
+2025-04-06 15:42:10 | INFO | User: anshul.marele@agraga.com | Booking ID: 2502LCLCMM06080026 | Field: Freight Broker | Old: nan | New: 
+2025-04-06 15:42:10 | INFO | User: anshul.marele@agraga.com | Booking ID: 2502LCLCMM06080026 | Field: Transporter | Old: nan | New: 
+2025-04-06 15:42:10 | INFO | User: anshul.marele@agraga.com | Booking ID: 2502LCLCMM06080026 | Field: Delivery Quote | Old: nan | New: 0.0
+2025-04-06 15:42:10 | INFO | User: anshul.marele@agraga.com | Booking ID: 2502LCLCMM05470033 | Field: Freight Broker | Old: nan | New: 
+2025-04-06 15:42:10 | INFO | User: anshul.marele@agraga.com | Booking ID: 2502LCLCMM05470033 | Field: Transporter | Old: nan | New: 
+2025-04-06 15:42:10 | INFO | User: anshul.marele@agraga.com | Booking ID: 2502LCLCMM05470033 | Field: Delivery Quote | Old: nan | New: 0.0
+2025-04-06 15:42:10 | INFO | User: anshul.marele@agraga.com | Booking ID: 2502LCLCMM06680003 | Field: Freight Broker | Old: nan | New: 
+2025-04-06 15:42:10 | INFO | User: anshul.marele@agraga.com | Booking ID: 2502LCLCMM06680003 | Field: Transporter | Old: nan | New: 
+2025-04-06 15:42:10 | INFO | User: anshul.marele@agraga.com | Booking ID: 2502LCLCMM06680003 | Field: Delivery Quote | Old: nan | New: 0.0
+2025-04-06 15:42:10 | INFO | User: anshul.marele@agraga.com | Booking ID: 2502LCLCMM06680004 | Field: Freight Broker | Old: nan | New: 
+2025-04-06 15:42:10 | INFO | User: anshul.marele@agraga.com | Booking ID: 2502LCLCMM06680004 | Field: Transporter | Old: nan | New: 
+2025-04-06 15:42:10 | INFO | User: anshul.marele@agraga.com | Booking ID: 2502LCLCMM06680004 | Field: Delivery Quote | Old: nan | New: 0.0
+2025-04-06 15:42:10 | INFO | User: anshul.marele@agraga.com | Booking ID: 2502LCLCMM02460028 | Field: Freight Broker | Old: nan | New: 
+2025-04-06 15:42:10 | INFO | User: anshul.marele@agraga.com | Booking ID: 2502LCLCMM02460028 | Field: Transporter | Old: nan | New: 
+2025-04-06 15:42:10 | INFO | User: anshul.marele@agraga.com | Booking ID: 2502LCLCMM02460028 | Field: Delivery Quote | Old: nan | New: 0.0
+2025-04-06 15:42:10 | INFO | User: anshul.marele@agraga.com | Booking ID: 2502LCLCMM06590004 | Field: Freight Broker | Old: nan | New: 
+2025-04-06 15:42:10 | INFO | User: anshul.marele@agraga.com | Booking ID: 2502LCLCMM06590004 | Field: Transporter | Old: nan | New: 
+2025-04-06 15:42:10 | INFO | User: anshul.marele@agraga.com | Booking ID: 2502LCLCMM06590004 | Field: Delivery Quote | Old: nan | New: 0.0
+2025-04-06 15:42:10 | INFO | User: anshul.marele@agraga.com | Booking ID: 2502LCLCMM06590004 | Field: Freight Broker | Old: nan | New: 
+2025-04-06 15:42:10 | INFO | User: anshul.marele@agraga.com | Booking ID: 2502LCLCMM06590004 | Field: Transporter | Old: nan | New: 
+2025-04-06 15:42:10 | INFO | User: anshul.marele@agraga.com | Booking ID: 2502LCLCMM06590004 | Field: Delivery Quote | Old: nan | New: 0.0
+2025-04-06 15:42:10 | INFO | User: anshul.marele@agraga.com | Booking ID: 2502LCLCMM06610004 | Field: Freight Broker | Old: nan | New: 
+2025-04-06 15:42:10 | INFO | User: anshul.marele@agraga.com | Booking ID: 2502LCLCMM06610004 | Field: Transporter | Old: nan | New: 
+2025-04-06 15:42:10 | INFO | User: anshul.marele@agraga.com | Booking ID: 2502LCLCMM06610004 | Field: Delivery Quote | Old: nan | New: 0.0
+2025-04-06 15:42:10 | INFO | User: anshul.marele@agraga.com | Booking ID: 2502LCLCMM06440012 | Field: Freight Broker | Old: nan | New: 
+2025-04-06 15:42:10 | INFO | User: anshul.marele@agraga.com | Booking ID: 2502LCLCMM06440012 | Field: Transporter | Old: nan | New: 
+2025-04-06 15:42:10 | INFO | User: anshul.marele@agraga.com | Booking ID: 2502LCLCMM06440012 | Field: Delivery Quote | Old: nan | New: 0.0
+2025-04-06 15:42:10 | INFO | User: anshul.marele@agraga.com | Booking ID: 2502LCLCEN04790029 | Field: Freight Broker | Old: nan | New: 
+2025-04-06 15:42:10 | INFO | User: anshul.marele@agraga.com | Booking ID: 2502LCLCEN04790029 | Field: Transporter | Old: nan | New: 
+2025-04-06 15:42:10 | INFO | User: anshul.marele@agraga.com | Booking ID: 2502LCLCEN04790029 | Field: Delivery Quote | Old: nan | New: 0.0
+2025-04-06 15:42:10 | INFO | User: anshul.marele@agraga.com | Booking ID: 2502LCLCEN04790030 | Field: Freight Broker | Old: nan | New: 
+2025-04-06 15:42:10 | INFO | User: anshul.marele@agraga.com | Booking ID: 2502LCLCEN04790030 | Field: Transporter | Old: nan | New: 
+2025-04-06 15:42:10 | INFO | User: anshul.marele@agraga.com | Booking ID: 2502LCLCEN04790030 | Field: Delivery Quote | Old: nan | New: 0.0
+2025-04-06 15:42:10 | INFO | User: anshul.marele@agraga.com | Booking ID: 2502LCLCMM06670003 | Field: Freight Broker | Old: nan | New: 
+2025-04-06 15:42:10 | INFO | User: anshul.marele@agraga.com | Booking ID: 2502LCLCMM06670003 | Field: Transporter | Old: nan | New: 
+2025-04-06 15:42:10 | INFO | User: anshul.marele@agraga.com | Booking ID: 2502LCLCMM06670003 | Field: Delivery Quote | Old: nan | New: 0.0
+2025-04-06 15:42:10 | INFO | User: anshul.marele@agraga.com | Booking ID: 2502LCLCMM02460029 | Field: Freight Broker | Old: nan | New: 
+2025-04-06 15:42:10 | INFO | User: anshul.marele@agraga.com | Booking ID: 2502LCLCMM02460029 | Field: Transporter | Old: nan | New: 
+2025-04-06 15:42:10 | INFO | User: anshul.marele@agraga.com | Booking ID: 2502LCLCMM02460029 | Field: Delivery Quote | Old: nan | New: 0.0
+2025-04-06 15:42:10 | INFO | User: anshul.marele@agraga.com | Booking ID: 2502LCLCMM02460030 | Field: Freight Broker | Old: nan | New: 
+2025-04-06 15:42:10 | INFO | User: anshul.marele@agraga.com | Booking ID: 2502LCLCMM02460030 | Field: Transporter | Old: nan | New: 
+2025-04-06 15:42:10 | INFO | User: anshul.marele@agraga.com | Booking ID: 2502LCLCMM02460030 | Field: Delivery Quote | Old: nan | New: 0.0
+2025-04-06 15:42:10 | INFO | User: anshul.marele@agraga.com | Booking ID: 2502LCLCMM05470036 | Field: Freight Broker | Old: nan | New: 
+2025-04-06 15:42:10 | INFO | User: anshul.marele@agraga.com | Booking ID: 2502LCLCMM05470036 | Field: Transporter | Old: nan | New: 
+2025-04-06 15:42:10 | INFO | User: anshul.marele@agraga.com | Booking ID: 2502LCLCMM05470036 | Field: Delivery Quote | Old: nan | New: 0.0
+2025-04-06 15:42:10 | INFO | User: anshul.marele@agraga.com | Booking ID: 2502LCLCMM04880003 | Field: Freight Broker | Old: nan | New: 
+2025-04-06 15:42:10 | INFO | User: anshul.marele@agraga.com | Booking ID: 2502LCLCMM04880003 | Field: Transporter | Old: nan | New: 
+2025-04-06 15:42:10 | INFO | User: anshul.marele@agraga.com | Booking ID: 2502LCLCMM04880003 | Field: Delivery Quote | Old: nan | New: 0.0
+2025-04-06 15:42:10 | INFO | User: anshul.marele@agraga.com | Booking ID: 2502LCLCMM04910002 | Field: Freight Broker | Old: nan | New: 
+2025-04-06 15:42:10 | INFO | User: anshul.marele@agraga.com | Booking ID: 2502LCLCMM04910002 | Field: Transporter | Old: nan | New: 
+2025-04-06 15:42:10 | INFO | User: anshul.marele@agraga.com | Booking ID: 2502LCLCMM04910002 | Field: Delivery Quote | Old: nan | New: 0.0
+2025-04-06 15:42:10 | INFO | User: anshul.marele@agraga.com | Booking ID: 2502LCLCEN04790034 | Field: Freight Broker | Old: nan | New: 
+2025-04-06 15:42:10 | INFO | User: anshul.marele@agraga.com | Booking ID: 2502LCLCEN04790034 | Field: Transporter | Old: nan | New: 
+2025-04-06 15:42:10 | INFO | User: anshul.marele@agraga.com | Booking ID: 2502LCLCEN04790034 | Field: Delivery Quote | Old: nan | New: 0.0
+2025-04-06 15:42:10 | INFO | User: anshul.marele@agraga.com | Booking ID: 2502LCLCMM06440014 | Field: Freight Broker | Old: nan | New: 
+2025-04-06 15:42:10 | INFO | User: anshul.marele@agraga.com | Booking ID: 2502LCLCMM06440014 | Field: Transporter | Old: nan | New: 
+2025-04-06 15:42:10 | INFO | User: anshul.marele@agraga.com | Booking ID: 2502LCLCMM06440014 | Field: Delivery Quote | Old: nan | New: 0.0
+2025-04-06 15:42:10 | INFO | User: anshul.marele@agraga.com | Booking ID: 2502LCLCMM06570004 | Field: Freight Broker | Old: nan | New: 
+2025-04-06 15:42:10 | INFO | User: anshul.marele@agraga.com | Booking ID: 2502LCLCMM06570004 | Field: Transporter | Old: nan | New: 
+2025-04-06 15:42:10 | INFO | User: anshul.marele@agraga.com | Booking ID: 2502LCLCMM06570004 | Field: Delivery Quote | Old: nan | New: 0.0
+2025-04-06 15:42:10 | INFO | User: anshul.marele@agraga.com | Booking ID: 2502LCLCMM06590007 | Field: Freight Broker | Old: nan | New: 
+2025-04-06 15:42:10 | INFO | User: anshul.marele@agraga.com | Booking ID: 2502LCLCMM06590007 | Field: Transporter | Old: nan | New: 
+2025-04-06 15:42:10 | INFO | User: anshul.marele@agraga.com | Booking ID: 2502LCLCMM06590007 | Field: Delivery Quote | Old: nan | New: 0.0
+2025-04-06 15:42:10 | INFO | User: anshul.marele@agraga.com | Booking ID: 2502LCLCMM06440016 | Field: Freight Broker | Old: nan | New: 
+2025-04-06 15:42:10 | INFO | User: anshul.marele@agraga.com | Booking ID: 2502LCLCMM06440016 | Field: Transporter | Old: nan | New: 
+2025-04-06 15:42:10 | INFO | User: anshul.marele@agraga.com | Booking ID: 2502LCLCMM06440016 | Field: Delivery Quote | Old: nan | New: 0.0
+2025-04-06 15:42:10 | INFO | User: anshul.marele@agraga.com | Booking ID: 2502LCLCMM06570012 | Field: Freight Broker | Old: nan | New: 
+2025-04-06 15:42:10 | INFO | User: anshul.marele@agraga.com | Booking ID: 2502LCLCMM06570012 | Field: Transporter | Old: nan | New: 
+2025-04-06 15:42:10 | INFO | User: anshul.marele@agraga.com | Booking ID: 2502LCLCMM06570012 | Field: Delivery Quote | Old: nan | New: 0.0
+2025-04-06 15:42:10 | INFO | User: anshul.marele@agraga.com | Booking ID: 2502LCLCMM06570013 | Field: Freight Broker | Old: nan | New: 
+2025-04-06 15:42:10 | INFO | User: anshul.marele@agraga.com | Booking ID: 2502LCLCMM06570013 | Field: Transporter | Old: nan | New: 
+2025-04-06 15:42:10 | INFO | User: anshul.marele@agraga.com | Booking ID: 2502LCLCMM06570013 | Field: Delivery Quote | Old: nan | New: 0.0
+2025-04-06 15:42:10 | INFO | User: anshul.marele@agraga.com | Booking ID: 2503LCLCMM06610014 | Field: Freight Broker | Old: nan | New: 
+2025-04-06 15:42:10 | INFO | User: anshul.marele@agraga.com | Booking ID: 2503LCLCMM06610014 | Field: Transporter | Old: nan | New: 
+2025-04-06 15:42:10 | INFO | User: anshul.marele@agraga.com | Booking ID: 2503LCLCMM06610014 | Field: Delivery Quote | Old: nan | New: 0.0
+2025-04-06 15:42:10 | INFO | User: anshul.marele@agraga.com | Booking ID: 2503LCLCMM00500030 | Field: Freight Broker | Old: nan | New: 
+2025-04-06 15:42:10 | INFO | User: anshul.marele@agraga.com | Booking ID: 2503LCLCMM00500030 | Field: Transporter | Old: nan | New: 
+2025-04-06 15:42:10 | INFO | User: anshul.marele@agraga.com | Booking ID: 2503LCLCMM00500030 | Field: Delivery Quote | Old: nan | New: 0.0
+2025-04-06 15:42:10 | INFO | User: anshul.marele@agraga.com | Booking ID: 2503LCLCMM05750010 | Field: Freight Broker | Old: nan | New: 
+2025-04-06 15:42:10 | INFO | User: anshul.marele@agraga.com | Booking ID: 2503LCLCMM05750010 | Field: Transporter | Old: nan | New: 
+2025-04-06 15:42:10 | INFO | User: anshul.marele@agraga.com | Booking ID: 2503LCLCMM05750010 | Field: Delivery Quote | Old: nan | New: 0.0
+2025-04-06 15:42:10 | INFO | User: anshul.marele@agraga.com | Booking ID: 2503LCLCMM05470040 | Field: Freight Broker | Old: nan | New: 
+2025-04-06 15:42:10 | INFO | User: anshul.marele@agraga.com | Booking ID: 2503LCLCMM05470040 | Field: Transporter | Old: nan | New: 
+2025-04-06 15:42:10 | INFO | User: anshul.marele@agraga.com | Booking ID: 2503LCLCMM05470040 | Field: Delivery Quote | Old: nan | New: 0.0
+2025-04-06 15:42:10 | INFO | User: anshul.marele@agraga.com | Booking ID: 2503LCLCMM00430031 | Field: Freight Broker | Old: nan | New: 
+2025-04-06 15:42:10 | INFO | User: anshul.marele@agraga.com | Booking ID: 2503LCLCMM00430031 | Field: Transporter | Old: nan | New: 
+2025-04-06 15:42:10 | INFO | User: anshul.marele@agraga.com | Booking ID: 2503LCLCMM00430031 | Field: Delivery Quote | Old: nan | New: 0.0
+2025-04-06 15:42:10 | INFO | User: anshul.marele@agraga.com | Booking ID: 2503LCLCEN04790038 | Field: Freight Broker | Old: nan | New: 
+2025-04-06 15:42:10 | INFO | User: anshul.marele@agraga.com | Booking ID: 2503LCLCEN04790038 | Field: Transporter | Old: nan | New: 
+2025-04-06 15:42:10 | INFO | User: anshul.marele@agraga.com | Booking ID: 2503LCLCEN04790038 | Field: Delivery Quote | Old: nan | New: 0.0
+2025-04-06 15:42:10 | INFO | User: anshul.marele@agraga.com | Booking ID: 2503LCLCMM06630006 | Field: Freight Broker | Old: nan | New: 
+2025-04-06 15:42:10 | INFO | User: anshul.marele@agraga.com | Booking ID: 2503LCLCMM06630006 | Field: Transporter | Old: nan | New: 
+2025-04-06 15:42:10 | INFO | User: anshul.marele@agraga.com | Booking ID: 2503LCLCMM06630006 | Field: Delivery Quote | Old: nan | New: 0.0
+2025-04-06 15:42:10 | INFO | User: anshul.marele@agraga.com | Booking ID: 2503LCLCMM06280005 | Field: Freight Broker | Old: nan | New: 
+2025-04-06 15:42:10 | INFO | User: anshul.marele@agraga.com | Booking ID: 2503LCLCMM06280005 | Field: Transporter | Old: nan | New: 
+2025-04-06 15:42:10 | INFO | User: anshul.marele@agraga.com | Booking ID: 2503LCLCMM06280005 | Field: Delivery Quote | Old: nan | New: 0.0
+2025-04-06 15:42:10 | INFO | User: anshul.marele@agraga.com | Booking ID: 2503LCLCMM06630009 | Field: Freight Broker | Old: nan | New: 
+2025-04-06 15:42:10 | INFO | User: anshul.marele@agraga.com | Booking ID: 2503LCLCMM06630009 | Field: Transporter | Old: nan | New: 
+2025-04-06 15:42:10 | INFO | User: anshul.marele@agraga.com | Booking ID: 2503LCLCMM06630009 | Field: Delivery Quote | Old: nan | New: 0.0
+2025-04-06 15:42:10 | INFO | User: anshul.marele@agraga.com | Booking ID: 2503LCLCMM00500036 | Field: Freight Broker | Old: nan | New: 
+2025-04-06 15:42:10 | INFO | User: anshul.marele@agraga.com | Booking ID: 2503LCLCMM00500036 | Field: Transporter | Old: nan | New: 
+2025-04-06 15:42:10 | INFO | User: anshul.marele@agraga.com | Booking ID: 2503LCLCMM00500036 | Field: Delivery Quote | Old: nan | New: 0.0
+2025-04-06 15:42:10 | INFO | User: anshul.marele@agraga.com | Booking ID: 2503LCLCMM06830004 | Field: Freight Broker | Old: nan | New: 
+2025-04-06 15:42:10 | INFO | User: anshul.marele@agraga.com | Booking ID: 2503LCLCMM06830004 | Field: Transporter | Old: nan | New: 
+2025-04-06 15:42:10 | INFO | User: anshul.marele@agraga.com | Booking ID: 2503LCLCMM06830004 | Field: Delivery Quote | Old: nan | New: 0.0
+2025-04-06 15:42:10 | INFO | User: anshul.marele@agraga.com | Booking ID: 2503LCLCMM06830005 | Field: Freight Broker | Old: nan | New: 
+2025-04-06 15:42:10 | INFO | User: anshul.marele@agraga.com | Booking ID: 2503LCLCMM06830005 | Field: Transporter | Old: nan | New: 
+2025-04-06 15:42:10 | INFO | User: anshul.marele@agraga.com | Booking ID: 2503LCLCMM06830005 | Field: Delivery Quote | Old: nan | New: 0.0
+2025-04-06 15:42:10 | INFO | User: anshul.marele@agraga.com | Booking ID: 2503LCLCMM06830006 | Field: Freight Broker | Old: nan | New: 
+2025-04-06 15:42:10 | INFO | User: anshul.marele@agraga.com | Booking ID: 2503LCLCMM06830006 | Field: Transporter | Old: nan | New: 
+2025-04-06 15:42:10 | INFO | User: anshul.marele@agraga.com | Booking ID: 2503LCLCMM06830006 | Field: Delivery Quote | Old: nan | New: 0.0
+2025-04-06 15:42:10 | INFO | User: anshul.marele@agraga.com | Booking ID: 2503LCLCMM05470043 | Field: Freight Broker | Old: nan | New: 
+2025-04-06 15:42:10 | INFO | User: anshul.marele@agraga.com | Booking ID: 2503LCLCMM05470043 | Field: Transporter | Old: nan | New: 
+2025-04-06 15:42:10 | INFO | User: anshul.marele@agraga.com | Booking ID: 2503LCLCMM05470043 | Field: Delivery Quote | Old: nan | New: 0.0
+2025-04-06 15:42:10 | INFO | User: anshul.marele@agraga.com | Booking ID: 2503LCLCMM00780027 | Field: Freight Broker | Old: nan | New: 
+2025-04-06 15:42:10 | INFO | User: anshul.marele@agraga.com | Booking ID: 2503LCLCMM00780027 | Field: Transporter | Old: nan | New: 
+2025-04-06 15:42:10 | INFO | User: anshul.marele@agraga.com | Booking ID: 2503LCLCMM00780027 | Field: Delivery Quote | Old: nan | New: 0.0
+2025-04-06 15:42:10 | INFO | User: anshul.marele@agraga.com | Booking ID: 2503LCLCMM06570023 | Field: Freight Broker | Old: nan | New: 
+2025-04-06 15:42:10 | INFO | User: anshul.marele@agraga.com | Booking ID: 2503LCLCMM06570023 | Field: Transporter | Old: nan | New: 
+2025-04-06 15:42:10 | INFO | User: anshul.marele@agraga.com | Booking ID: 2503LCLCMM06570023 | Field: Delivery Quote | Old: nan | New: 0.0
+2025-04-06 15:42:10 | INFO | User: anshul.marele@agraga.com | Booking ID: 2503LCLCMM06570024 | Field: Freight Broker | Old: nan | New: 
+2025-04-06 15:42:10 | INFO | User: anshul.marele@agraga.com | Booking ID: 2503LCLCMM06570024 | Field: Transporter | Old: nan | New: 
+2025-04-06 15:42:10 | INFO | User: anshul.marele@agraga.com | Booking ID: 2503LCLCMM06570024 | Field: Delivery Quote | Old: nan | New: 0.0
+2025-04-06 15:42:10 | INFO | User: anshul.marele@agraga.com | Booking ID: 2503LCLCMM00430034 | Field: Freight Broker | Old: nan | New: 
+2025-04-06 15:42:10 | INFO | User: anshul.marele@agraga.com | Booking ID: 2503LCLCMM00430034 | Field: Transporter | Old: nan | New: 
+2025-04-06 15:42:10 | INFO | User: anshul.marele@agraga.com | Booking ID: 2503LCLCMM00430034 | Field: Delivery Quote | Old: nan | New: 0.0
+2025-04-06 15:42:10 | INFO | User: anshul.marele@agraga.com | Booking ID: 2503LCLCMM06440018 | Field: Freight Broker | Old: nan | New: 
+2025-04-06 15:42:10 | INFO | User: anshul.marele@agraga.com | Booking ID: 2503LCLCMM06440018 | Field: Transporter | Old: nan | New: 
+2025-04-06 15:42:10 | INFO | User: anshul.marele@agraga.com | Booking ID: 2503LCLCMM06440018 | Field: Delivery Quote | Old: nan | New: 0.0
+2025-04-06 15:42:10 | INFO | User: anshul.marele@agraga.com | Booking ID: 2503LCLCMM04870009 | Field: Freight Broker | Old: nan | New: 
+2025-04-06 15:42:10 | INFO | User: anshul.marele@agraga.com | Booking ID: 2503LCLCMM04870009 | Field: Transporter | Old: nan | New: 
+2025-04-06 15:42:10 | INFO | User: anshul.marele@agraga.com | Booking ID: 2503LCLCMM04870009 | Field: Delivery Quote | Old: nan | New: 0.0
+2025-04-06 15:42:10 | INFO | User: anshul.marele@agraga.com | Booking ID: 2503LCLCEN04790045 | Field: Freight Broker | Old: nan | New: 
+2025-04-06 15:42:10 | INFO | User: anshul.marele@agraga.com | Booking ID: 2503LCLCEN04790045 | Field: Transporter | Old: nan | New: 
+2025-04-06 15:42:10 | INFO | User: anshul.marele@agraga.com | Booking ID: 2503LCLCEN04790045 | Field: Delivery Quote | Old: nan | New: 0.0
+2025-04-06 15:42:10 | INFO | User: anshul.marele@agraga.com | Booking ID: 2503LCLCMM06570033 | Field: Freight Broker | Old: nan | New: 
+2025-04-06 15:42:10 | INFO | User: anshul.marele@agraga.com | Booking ID: 2503LCLCMM06570033 | Field: Transporter | Old: nan | New: 
+2025-04-06 15:42:10 | INFO | User: anshul.marele@agraga.com | Booking ID: 2503LCLCMM06570033 | Field: Delivery Quote | Old: nan | New: 0.0
+2025-04-06 15:42:10 | INFO | User: anshul.marele@agraga.com | Booking ID: 2503LCLCMM06570034 | Field: Freight Broker | Old: nan | New: 
+2025-04-06 15:42:10 | INFO | User: anshul.marele@agraga.com | Booking ID: 2503LCLCMM06570034 | Field: Transporter | Old: nan | New: 
+2025-04-06 15:42:10 | INFO | User: anshul.marele@agraga.com | Booking ID: 2503LCLCMM06570034 | Field: Delivery Quote | Old: nan | New: 0.0
+2025-04-06 15:42:10 | INFO | User: anshul.marele@agraga.com | Booking ID: 2503LCLCMM05540008 | Field: Freight Broker | Old: nan | New: 
+2025-04-06 15:42:10 | INFO | User: anshul.marele@agraga.com | Booking ID: 2503LCLCMM05540008 | Field: Transporter | Old: nan | New: 
+2025-04-06 15:42:10 | INFO | User: anshul.marele@agraga.com | Booking ID: 2503LCLCMM05540008 | Field: Delivery Quote | Old: nan | New: 0.0
+2025-04-06 15:42:10 | INFO | User: anshul.marele@agraga.com | Booking ID: 2503LCLCMM06910006 | Field: Freight Broker | Old: nan | New: 
+2025-04-06 15:42:10 | INFO | User: anshul.marele@agraga.com | Booking ID: 2503LCLCMM06910006 | Field: Transporter | Old: nan | New: 
+2025-04-06 15:42:10 | INFO | User: anshul.marele@agraga.com | Booking ID: 2503LCLCMM06910006 | Field: Delivery Quote | Old: nan | New: 0.0
+2025-04-06 15:42:10 | INFO | User: anshul.marele@agraga.com | Booking ID: 2503LCLCMM05930004 | Field: Freight Broker | Old: nan | New: 
+2025-04-06 15:42:10 | INFO | User: anshul.marele@agraga.com | Booking ID: 2503LCLCMM05930004 | Field: Transporter | Old: nan | New: 
+2025-04-06 15:42:10 | INFO | User: anshul.marele@agraga.com | Booking ID: 2503LCLCMM05930004 | Field: Delivery Quote | Old: nan | New: 0.0
+2025-04-06 15:42:10 | INFO | User: anshul.marele@agraga.com | Booking ID: 2503LCLCMM00430039 | Field: Freight Broker | Old: nan | New: 
+2025-04-06 15:42:10 | INFO | User: anshul.marele@agraga.com | Booking ID: 2503LCLCMM00430039 | Field: Transporter | Old: nan | New: 
+2025-04-06 15:42:10 | INFO | User: anshul.marele@agraga.com | Booking ID: 2503LCLCMM00430039 | Field: Delivery Quote | Old: nan | New: 0.0
+2025-04-06 15:42:10 | INFO | User: anshul.marele@agraga.com | Booking ID: 2503LCLCMM05580009 | Field: Freight Broker | Old: nan | New: 
+2025-04-06 15:42:10 | INFO | User: anshul.marele@agraga.com | Booking ID: 2503LCLCMM05580009 | Field: Transporter | Old: nan | New: 
+2025-04-06 15:42:10 | INFO | User: anshul.marele@agraga.com | Booking ID: 2503LCLCMM05580009 | Field: Delivery Quote | Old: nan | New: 0.0
+2025-04-06 15:42:10 | INFO | User: anshul.marele@agraga.com | Booking ID: 2503LCLCMM06570039 | Field: Freight Broker | Old: nan | New: 
+2025-04-06 15:42:10 | INFO | User: anshul.marele@agraga.com | Booking ID: 2503LCLCMM06570039 | Field: Transporter | Old: nan | New: 
+2025-04-06 15:42:10 | INFO | User: anshul.marele@agraga.com | Booking ID: 2503LCLCMM06570039 | Field: Delivery Quote | Old: nan | New: 0.0
+2025-04-06 15:42:10 | INFO | User: anshul.marele@agraga.com | Booking ID: 2503LCLCMM06570040 | Field: Freight Broker | Old: nan | New: 
+2025-04-06 15:42:10 | INFO | User: anshul.marele@agraga.com | Booking ID: 2503LCLCMM06570040 | Field: Transporter | Old: nan | New: 
+2025-04-06 15:42:10 | INFO | User: anshul.marele@agraga.com | Booking ID: 2503LCLCMM06570040 | Field: Delivery Quote | Old: nan | New: 0.0
+2025-04-06 15:42:10 | INFO | User: anshul.marele@agraga.com | Booking ID: 2503LCLCMM00040014 | Field: Freight Broker | Old: nan | New: 
+2025-04-06 15:42:10 | INFO | User: anshul.marele@agraga.com | Booking ID: 2503LCLCMM00040014 | Field: Transporter | Old: nan | New: 
+2025-04-06 15:42:10 | INFO | User: anshul.marele@agraga.com | Booking ID: 2503LCLCMM00040014 | Field: Delivery Quote | Old: nan | New: 0.0
+2025-04-06 15:42:10 | INFO | User: anshul.marele@agraga.com | Booking ID: 2504LCLCMM00780030 | Field: Freight Broker | Old: nan | New: 
+2025-04-06 15:42:10 | INFO | User: anshul.marele@agraga.com | Booking ID: 2504LCLCMM00780030 | Field: Transporter | Old: nan | New: 
+2025-04-06 15:42:10 | INFO | User: anshul.marele@agraga.com | Booking ID: 2504LCLCMM00780030 | Field: Delivery Quote | Old: nan | New: 0.0
+2025-04-06 15:42:10 | INFO | User: anshul.marele@agraga.com | Booking ID: 2504LCLCMM07000003 | Field: Freight Broker | Old: nan | New: 
+2025-04-06 15:42:10 | INFO | User: anshul.marele@agraga.com | Booking ID: 2504LCLCMM07000003 | Field: Transporter | Old: nan | New: 
+2025-04-06 15:42:10 | INFO | User: anshul.marele@agraga.com | Booking ID: 2504LCLCMM07000003 | Field: Delivery Quote | Old: nan | New: 0.0
+2025-04-06 15:42:10 | INFO | User: anshul.marele@agraga.com | Booking ID: 2504LCLCMM07050004 | Field: Freight Broker | Old: nan | New: 
+2025-04-06 15:42:10 | INFO | User: anshul.marele@agraga.com | Booking ID: 2504LCLCMM07050004 | Field: Transporter | Old: nan | New: 
+2025-04-06 15:42:10 | INFO | User: anshul.marele@agraga.com | Booking ID: 2504LCLCMM07050004 | Field: Delivery Quote | Old: nan | New: 0.0
+2025-04-06 15:58:18 | INFO |  ayyanagouda.r@agraga.com | Login Attempt | SUCCESS
+2025-04-06 15:58:18 | INFO |  ayyanagouda.r@agraga.com | Role Assigned: Admin | SUCCESS
+2025-04-06 15:58:18 | INFO |  ayyanagouda.r@agraga.com | Login Successful | SUCCESS
