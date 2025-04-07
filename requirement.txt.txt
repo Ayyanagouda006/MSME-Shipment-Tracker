@@ -1,0 +1,6 @@
+streamlit
+pandas
+streamlit-option-menu
+pymongo
+openpyxl
+numpy
