@@ -63,12 +63,22 @@ def display_centralOps_report():
     # --- EDITABLE TABLE ---
     edited_df = st.data_editor(
         filtered_df,
-        column_order=["Agraga Booking #", "Customer Name", "ISF Filing", "CFS", "Actual # of Pallets", "Ready for Pick-up Date", "HBL Released Date", "Pick up number", "Delivery Appointment Date", "Vendor Delivery Invoice", "PRO Number", "Storage Incurred (Days)", "MBL#", "HBL#", "Booking Status", "FBA?", "Stuffing Date", "Container #", "ETD", "ETA", "SOB", "ATA", "Carrier", "Consolidator", "Origin", "FPOD", "Delivery Address", "FBA Code", "Freight Broker", "Transporter", "Delivery Quote", "Packages", "Pallets", "importClearance", "Duty Invoice", "Duty Invoice Status", "LFD", "DO Release Approved?", "DO Released Date", "Pick-up Date", "Delivery Date", "Updated Status Remarks"],
+        column_order=[
+            "Customer Name", "MBL#", "HBL#", "Agraga Booking #", "Booking Status", "FBA?", "ISF Filing", "Stuffing Date",
+            "Container #", "ETD", "ETA", "SOB", "ATA", "Carrier", "Consolidator", "FPOD", "CFS", "Delivery Address",
+            "FBA Code", "Freight Broker", "Transporter", "Delivery Quote", "Packages", "Pallets", "Clearance Date",
+            "Duty Invoice", "Actual # of Pallets", "Ready for Pick-up Date", "LFD", "DO Release Approved?",
+            "HBL Released Date", "DO Released Date", "Pick-up Date", "Pick up number", "Delivery Appointment Date",
+            "Delivery Date", "Vendor Delivery Invoice", "Updated Status Remarks", "PRO Number", "Storage Incurred (Days)"
+        ],
         use_container_width=True,
         hide_index = True,
         column_config={
-            "Agraga Booking #": st.column_config.Column(pinned=True),
             "Customer Name": st.column_config.Column(pinned=True),
+            "MBL#": st.column_config.Column(pinned=True),
+            "HBL#": st.column_config.Column(pinned=True),
+            "Agraga Booking #": st.column_config.Column(pinned=True),
+            "Booking Status": st.column_config.Column(pinned=True),
             "ISF Filing": st.column_config.CheckboxColumn("ISF Filing"),
             "CFS": st.column_config.SelectboxColumn(
                 "CFS",

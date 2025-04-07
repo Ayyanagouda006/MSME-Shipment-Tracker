@@ -42,12 +42,23 @@ def display_creditcontrol_report():
         # --- EDITABLE TABLE ---
         edited_df = st.data_editor(
             filtered_df,
+            column_order=[
+                "Customer Name", "MBL#", "HBL#", "Agraga Booking #", "Booking Status", "FBA?", "ISF Filing", "Stuffing Date",
+                "Container #", "ETD", "ETA", "SOB", "ATA", "Carrier", "Consolidator", "FPOD", "CFS", "Delivery Address",
+                "FBA Code", "Freight Broker", "Transporter", "Delivery Quote", "Packages", "Pallets", "Clearance Date",
+                "Duty Invoice", "Actual # of Pallets", "Ready for Pick-up Date", "LFD", "DO Release Approved?",
+                "HBL Released Date", "DO Released Date", "Pick-up Date", "Pick up number", "Delivery Appointment Date",
+                "Delivery Date", "Vendor Delivery Invoice", "Updated Status Remarks", "PRO Number", "Storage Incurred (Days)"
+            ],
             use_container_width=True,
             hide_index = True,
             column_config={
-                "Agraga Booking #": st.column_config.Column(pinned=True),
                 "Customer Name": st.column_config.Column(pinned=True),
-                "DO Release Approved?": st.column_config.CheckboxColumn("DO Release Approved?",pinned=True)
+                "MBL#": st.column_config.Column(pinned=True),
+                "HBL#": st.column_config.Column(pinned=True),
+                "Agraga Booking #": st.column_config.Column(pinned=True),
+                "Booking Status": st.column_config.Column(pinned=True),
+                "DO Release Approved?": st.column_config.CheckboxColumn("DO Release Approved?")
             },
             disabled=[
                 col for col in df.columns if col not in ["DO Release Approved?"]
