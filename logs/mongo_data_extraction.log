@@ -30,3 +30,19 @@
 2025-04-07 11:05:34,809 - INFO - Merged all datasets successfully
 2025-04-07 11:05:34,810 - INFO - MongoDB connection closed.
 2025-04-07 11:05:34,810 - INFO - ****************************************************************************************************
+2025-04-07 11:11:11,621 - INFO - Connecting to MongoDB...
+2025-04-07 11:11:11,624 - INFO - Fetching from Bookings collection
+2025-04-07 11:11:11,729 - INFO - Fetched 112 records from Bookings
+2025-04-07 11:11:11,729 - INFO - Fetching from SHEntities collection
+2025-04-07 11:11:11,751 - INFO - Fetched 3026 SHEntities
+2025-04-07 11:11:11,752 - INFO - Fetching from Bookingdsr collection
+2025-04-07 11:11:11,812 - INFO - Fetched 5933 Bookingdsr records
+2025-04-07 11:11:11,813 - INFO - Fetching from Myactions collection
+2025-04-07 11:11:12,124 - INFO - Filtered to 111 Invoice Acceptance actions
+2025-04-07 11:11:12,124 - INFO - Fetching from Addressdetails collection
+2025-04-07 11:11:12,137 - INFO - Fetched 3431 Addressdetails records
+2025-04-07 11:11:12,137 - INFO - Fetching from Agusers collection
+2025-04-07 11:11:12,146 - INFO - Fetched 396 Agusers records
+2025-04-07 11:11:12,179 - INFO - Merged all datasets successfully
+2025-04-07 11:11:12,181 - INFO - MongoDB connection closed.
+2025-04-07 11:11:12,181 - INFO - ****************************************************************************************************
