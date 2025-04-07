@@ -1,0 +1,20 @@
+/usr/lib/python3/dist-packages/blinker/base.py:93: SyntaxWarning: invalid escape sequence '\*'
+  """Connect *receiver* to signal events sent by *sender*.
+/usr/lib/python3/dist-packages/blinker/base.py:161: SyntaxWarning: invalid escape sequence '\*'
+  """Connect the decorated function as a receiver for *sender*.
+/usr/lib/python3/dist-packages/blinker/base.py:242: SyntaxWarning: invalid escape sequence '\*'
+  """Emit this signal on behalf of *sender*, passing on \*\*kwargs.
+
+Collecting usage statistics. To deactivate, set browser.gatherUsageStats to false.
+
+
+  You can now view your Streamlit app in your browser.
+
+  Local URL: http://localhost:8502
+  Network URL: http://172.31.40.84:8502
+  External URL: http://3.108.70.93:8502
+
+/usr/lib/python3/dist-packages/pytz/__init__.py:31: SyntaxWarning: invalid escape sequence '\s'
+  match = re.match("^#\s*version\s*([0-9a-z]*)\s*$", line)
+2025-04-07 08:54:22.310 Session with id 6a4065bf-b3d6-4f9d-9b2e-3aebb15589e6 is already connected! Connecting to a new session.
+2025-04-07 08:54:22.604 Session with id 71e452ff-9ee8-4469-ad5f-5804b26f36d0 is already connected! Connecting to a new session.

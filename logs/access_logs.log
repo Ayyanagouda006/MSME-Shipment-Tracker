@@ -1,3 +1,26 @@
 2025-04-07 13:33:40 | INFO |  anshul.marele@agraga.com | Login Attempt | SUCCESS
 2025-04-07 13:33:40 | INFO |  anshul.marele@agraga.com | Role Assigned: MSME | SUCCESS
 2025-04-07 13:33:40 | INFO |  anshul.marele@agraga.com | Login Successful | SUCCESS
+2025-04-07 08:34:53 | INFO |  ayyanagouda.r@agraga.com | Login Attempt | SUCCESS
+2025-04-07 08:34:53 | INFO |  ayyanagouda.r@agraga.com | Role Assigned: Admin | SUCCESS
+2025-04-07 08:34:53 | INFO |  ayyanagouda.r@agraga.com | Login Successful | SUCCESS
+2025-04-07 08:35:47 | INFO |  praveen.c@agraga.com | Login Attempt | SUCCESS
+2025-04-07 08:35:47 | INFO |  praveen.c@agraga.com | Role Assigned: MSME | SUCCESS
+2025-04-07 08:35:47 | INFO |  praveen.c@agraga.com | Login Successful | SUCCESS
+2025-04-07 08:36:50 | INFO |  praveen.c@agraga.com | Login Attempt | SUCCESS
+2025-04-07 08:36:50 | INFO |  praveen.c@agraga.com | Role Assigned: MSME | SUCCESS
+2025-04-07 08:36:50 | INFO |  praveen.c@agraga.com | Login Successful | SUCCESS
+2025-04-07 08:39:51 | INFO |  praveen.c@ | Login Attempt | SUCCESS
+2025-04-07 08:39:51 | INFO |  praveen.c@ | Access Denied - Not in Agusers | DENIED
+2025-04-07 08:40:00 | INFO |  praveen.c@agraga.com | Login Attempt | SUCCESS
+2025-04-07 08:40:00 | INFO |  praveen.c@agraga.com | Role Assigned: MSME | SUCCESS
+2025-04-07 08:40:00 | INFO |  praveen.c@agraga.com | Login Successful | SUCCESS
+2025-04-07 08:42:43 | INFO |  manoj.kumar@agraga.com | Login Attempt | SUCCESS
+2025-04-07 08:42:43 | INFO |  manoj.kumar@agraga.com | Role Assigned: Admin | SUCCESS
+2025-04-07 08:42:43 | INFO |  manoj.kumar@agraga.com | Login Successful | SUCCESS
+2025-04-07 09:07:22 | INFO |  anshul.marele@agraga.com | Login Attempt | SUCCESS
+2025-04-07 09:07:22 | INFO |  anshul.marele@agraga.com | Role Assigned: MSME | SUCCESS
+2025-04-07 09:07:22 | INFO |  anshul.marele@agraga.com | Login Successful | SUCCESS
+2025-04-07 09:14:51 | INFO |  ayyanagouda.r@agraga.com | Login Attempt | SUCCESS
+2025-04-07 09:14:51 | INFO |  ayyanagouda.r@agraga.com | Role Assigned: Admin | SUCCESS
+2025-04-07 09:14:51 | INFO |  ayyanagouda.r@agraga.com | Login Successful | SUCCESS
