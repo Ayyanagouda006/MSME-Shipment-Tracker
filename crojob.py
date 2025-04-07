@@ -4,7 +4,7 @@ import subprocess
 def run_script():
     # Replace with the full path to your script   
     try:
-        script_path = "/MSME-Shipment-Tracker/Backend_data.py"
+        script_path = r"/MSME-Shipment-Tracker/Backend_data.py"
         subprocess.run(["python3", script_path], check=True)
         print(f"Executed {script_path} successfully.")
     except subprocess.CalledProcessError as e:
