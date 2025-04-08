@@ -212,3 +212,15 @@ Columns: [(Customer Name, self), (Customer Name, other), (MBL#, self), (MBL#, ot
 Index: []
 2025-04-08 02:11:44,659 - INFO - Final updated report rows: 108
 2025-04-08 02:11:44,660 - INFO - ****************************************************************************************************
+2025-04-08 03:11:46,683 - INFO - Total rows in existing report: 108
+2025-04-08 03:11:46,684 - INFO - Total rows in generated report: 108
+2025-04-08 03:11:46,684 - INFO - Columns to compare (excluding keys and excluded): ['Customer Name', 'MBL#', 'HBL#', 'Booking Status', 'FBA?', 'Stuffing Date', 'Container #', 'ETD', 'ETA', 'SOB', 'ATA', 'Carrier', 'Consolidator', 'Origin', 'FPOD', 'Delivery Address', 'FBA Code', 'Packages', 'Pallets', 'importClearance', 'Duty Invoice', 'Duty Invoice Status', 'LFD', 'DO Released Date', 'Pick-up Date', 'Delivery Date', 'Updated Status Remarks']
+2025-04-08 03:11:46,685 - INFO - Common keys: 105
+2025-04-08 03:11:46,685 - INFO - New keys (to be added): 0
+2025-04-08 03:11:46,722 - INFO - Changed records: 0
+2025-04-08 03:11:46,722 - INFO - Sample changes:
+2025-04-08 03:11:46,729 - INFO - Empty DataFrame
+Columns: [(Customer Name, self), (Customer Name, other), (MBL#, self), (MBL#, other), (HBL#, self), (HBL#, other), (Booking Status, self), (Booking Status, other), (FBA?, self), (FBA?, other), (Stuffing Date, self), (Stuffing Date, other), (Container #, self), (Container #, other), (ETD, self), (ETD, other), (ETA, self), (ETA, other), (SOB, self), (SOB, other), (ATA, self), (ATA, other), (Carrier, self), (Carrier, other), (Consolidator, self), (Consolidator, other), (Origin, self), (Origin, other), (FPOD, self), (FPOD, other), (Delivery Address, self), (Delivery Address, other), (FBA Code, self), (FBA Code, other), (Packages, self), (Packages, other), (Pallets, self), (Pallets, other), (importClearance, self), (importClearance, other), (Duty Invoice, self), (Duty Invoice, other), (Duty Invoice Status, self), (Duty Invoice Status, other), (LFD, self), (LFD, other), (DO Released Date, self), (DO Released Date, other), (Pick-up Date, self), (Pick-up Date, other), (Delivery Date, self), (Delivery Date, other), (Updated Status Remarks, self), (Updated Status Remarks, other)]
+Index: []
+2025-04-08 03:11:46,739 - INFO - Final updated report rows: 108
+2025-04-08 03:11:46,739 - INFO - ****************************************************************************************************
