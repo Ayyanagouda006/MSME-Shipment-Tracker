@@ -22,6 +22,7 @@ def display_centralOps_report():
     df["Ready for Pick-up Date"] = pd.to_datetime(df["Ready for Pick-up Date"], errors='coerce').dt.date
     df["HBL Released Date"] = pd.to_datetime(df["HBL Released Date"], errors='coerce').dt.date
     df["Delivery Appointment Date"] = pd.to_datetime(df["Delivery Appointment Date"], errors='coerce').dt.date
+    df["Remarks"] = df["Remarks"].astype(str).str.strip().fillna('')
 
     st.write("### 🛠️ Central Ops Editable Report")
 
@@ -60,6 +61,7 @@ def display_centralOps_report():
     filtered_df["Vendor Delivery Invoice"] = filtered_df["Vendor Delivery Invoice"].map({"Yes": True})
     filtered_df["PRO Number"] = filtered_df["PRO Number"].astype(str).str.strip().fillna('')
     filtered_df["Storage Incurred (Days)"] = pd.to_numeric(filtered_df["Storage Incurred (Days)"], errors='coerce').fillna(0).astype('Int64')
+    filtered_df["Remarks"] = filtered_df["Remarks"].astype(str).str.strip().fillna('')
     # --- EDITABLE TABLE ---
     edited_df = st.data_editor(
         filtered_df,
@@ -69,7 +71,7 @@ def display_centralOps_report():
             "FBA Code", "Freight Broker", "Transporter", "Delivery Quote", "Packages", "Pallets", "Clearance Date",
             "Duty Invoice", "Actual # of Pallets", "Ready for Pick-up Date", "LFD", "DO Release Approved?",
             "HBL Released Date", "DO Released Date", "Pick-up Date", "Pick up number", "Delivery Appointment Date",
-            "Delivery Date", "Vendor Delivery Invoice", "Updated Status Remarks", "PRO Number", "Storage Incurred (Days)"
+            "Delivery Date", "Vendor Delivery Invoice", "Updated Status Remarks", "PRO Number", "Storage Incurred (Days)", "Remarks"
         ],
         use_container_width=True,
         hide_index = True,
@@ -121,12 +123,16 @@ def display_centralOps_report():
                 "Storage Incurred (Days)",
                 step=1,
                 default="int"
+            ),
+            "Remarks": st.column_config.TextColumn(
+                "Remarks",
+                required=False
             )
         },
         disabled=[
             col for col in df.columns if col not in ["ISF Filing", "CFS", "Actual # of Pallets", "Ready for Pick-up Date",
                                                         "HBL Released Date", "Pick up number", "Delivery Appointment Date",
-                                                        "Vendor Delivery Invoice", "PRO Number", "Storage Incurred (Days)"]
+                                                        "Vendor Delivery Invoice", "PRO Number", "Storage Incurred (Days)", "Remarks"]
         ],
         key="centralops_editor"
     )
@@ -143,6 +149,7 @@ def display_centralOps_report():
     edited_df["Vendor Delivery Invoice"] = edited_df["Vendor Delivery Invoice"].astype(str).str.strip()
     edited_df["PRO Number"] = edited_df["PRO Number"].astype(str).str.strip()
     edited_df["Storage Incurred (Days)"] = pd.to_numeric(edited_df["Storage Incurred (Days)"], errors='coerce').astype('Int64')
+    edited_df["Remarks"] = edited_df["Remarks"].astype(str).str.strip()
 
     # Replace 'nan' strings with empty string
     edited_df.replace("nan", "", inplace=True)
@@ -160,7 +167,7 @@ def display_centralOps_report():
             # Update only the edited columns
             columns_to_update = ["ISF Filing", "CFS", "Actual # of Pallets", "Ready for Pick-up Date",
                                 "HBL Released Date", "Pick up number", "Delivery Appointment Date",
-                                "Vendor Delivery Invoice", "PRO Number", "Storage Incurred (Days)"]
+                                "Vendor Delivery Invoice", "PRO Number", "Storage Incurred (Days)", "Remarks"]
             for col in columns_to_update:
                 # Ensure both DataFrames treat the column as string type
                 original_df[col] = original_df[col].astype(str)

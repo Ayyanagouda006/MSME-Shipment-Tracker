@@ -380,6 +380,7 @@ def booking_process(bookings, Addressdetails):
                         'Updated Status Remarks': remarks,
                         'PRO Number': '',
                         'Storage Incurred (Days)': '',
+                        'Remarks':''
                     }
 
                     result_rows.append(row_data)
@@ -428,6 +429,7 @@ def booking_process(bookings, Addressdetails):
                     'Updated Status Remarks': remarks,
                     'PRO Number': '',
                     'Storage Incurred (Days)': '',
+                    'Remarks':''
                 }
 
                 result_rows.append(row_data)
@@ -447,7 +449,7 @@ def process_report(existing_report, generated_report):
     exclude_cols = ['ISF Filing', 'CFS', 'Freight Broker', 'Transporter', 'Delivery Quote',
                     'Actual # of Pallets', 'Ready for Pick-up Date', 'DO Release Approved?', 
                     'HBL Released Date', 'Pick up number', 'Delivery Appointment Date',
-                    'Vendor Delivery Invoice', 'PRO Number', 'Storage Incurred (Days)']
+                    'Vendor Delivery Invoice', 'PRO Number', 'Storage Incurred (Days)','Remarks']
 
     compare_cols = [col for col in existing_report.columns if col not in exclude_cols + [key_col]]
 

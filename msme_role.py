@@ -15,6 +15,7 @@ def display_msme_report():
         df = pd.read_excel("data/report.xlsx")
         df["Freight Broker"] = df["Freight Broker"].astype(str).str.strip().fillna('')
         df["Transporter"] = df["Transporter"].astype(str).str.strip().fillna('')
+        df["Remarks"] = df["Remarks"].astype(str).str.strip().fillna('')
 
         st.write("### 📝 MSME Editable Report")
 
@@ -41,6 +42,7 @@ def display_msme_report():
         # Apply same cleaning to filtered data
         filtered_df["Freight Broker"] = filtered_df["Freight Broker"].astype(str).str.strip().fillna('')
         filtered_df["Transporter"] = filtered_df["Transporter"].astype(str).str.strip().fillna('')
+        filtered_df["Remarks"] = filtered_df["Remarks"].astype(str).str.strip().fillna('')
         filtered_df["Delivery Quote"] = pd.to_numeric(filtered_df["Delivery Quote"], errors='coerce').fillna(0.0)
 
         # --- EDITABLE TABLE ---
@@ -52,7 +54,7 @@ def display_msme_report():
                 "FBA Code", "Freight Broker", "Transporter", "Delivery Quote", "Packages", "Pallets", "Clearance Date",
                 "Duty Invoice", "Actual # of Pallets", "Ready for Pick-up Date", "LFD", "DO Release Approved?",
                 "HBL Released Date", "DO Released Date", "Pick-up Date", "Pick up number", "Delivery Appointment Date",
-                "Delivery Date", "Vendor Delivery Invoice", "Updated Status Remarks", "PRO Number", "Storage Incurred (Days)"
+                "Delivery Date", "Vendor Delivery Invoice", "Updated Status Remarks", "PRO Number", "Storage Incurred (Days)","Remarks"
             ],
             use_container_width=True,
             hide_index = True,
@@ -77,15 +79,20 @@ def display_msme_report():
                     step=0.01,
                     format="$%.2f",
                     help="in USD"
+                ),
+                "Remarks": st.column_config.TextColumn(
+                    "Remarks",
+                    required=False
                 )
             },
             disabled=[
-                col for col in df.columns if col not in ["Freight Broker", "Transporter", "Delivery Quote"]
+                col for col in df.columns if col not in ["Freight Broker", "Transporter", "Delivery Quote","Remarks"]
             ],
             key="msme_editor"
         )
         edited_df["Freight Broker"] = edited_df["Freight Broker"].astype(str).str.strip()
         edited_df["Transporter"] = edited_df["Transporter"].astype(str).str.strip()
+        edited_df["Remarks"] = edited_df["Remarks"].astype(str).str.strip()
 
         # Replace 'nan' strings with empty string
         edited_df.replace("nan", "", inplace=True)
@@ -101,7 +108,7 @@ def display_msme_report():
                 edited_df.index = filtered_df.index  # Maintain correct row alignment
 
                 # Update only the edited columns
-                columns_to_update = ["Freight Broker", "Transporter", "Delivery Quote"]
+                columns_to_update = ["Freight Broker", "Transporter", "Delivery Quote","Remarks"]
                 for col in columns_to_update:
                     # Ensure both DataFrames treat the column as string type
                     original_df[col] = original_df[col].astype(str)

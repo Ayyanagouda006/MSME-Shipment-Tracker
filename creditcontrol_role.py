@@ -14,6 +14,7 @@ def display_creditcontrol_report():
     try:
         df = pd.read_excel("data/report.xlsx")
         df["DO Release Approved?"] = df["DO Release Approved?"].astype(str).str.strip().fillna('')
+        df["Remarks"] = df["Remarks"].astype(str).str.strip().fillna('')
 
         st.write("### 💳 Credit Control Editable Report")
 
@@ -37,7 +38,7 @@ def display_creditcontrol_report():
         # Apply same cleaning to filtered data
         filtered_df["DO Release Approved?"] = filtered_df["DO Release Approved?"].astype(str).str.strip().fillna('')
         filtered_df["DO Release Approved?"] = filtered_df["DO Release Approved?"].map({"Yes": True})
-
+        filtered_df["Remarks"] = filtered_df["Remarks"].astype(str).str.strip().fillna('')
 
         # --- EDITABLE TABLE ---
         edited_df = st.data_editor(
@@ -48,7 +49,7 @@ def display_creditcontrol_report():
                 "FBA Code", "Freight Broker", "Transporter", "Delivery Quote", "Packages", "Pallets", "Clearance Date",
                 "Duty Invoice", "Actual # of Pallets", "Ready for Pick-up Date", "LFD", "DO Release Approved?",
                 "HBL Released Date", "DO Released Date", "Pick-up Date", "Pick up number", "Delivery Appointment Date",
-                "Delivery Date", "Vendor Delivery Invoice", "Updated Status Remarks", "PRO Number", "Storage Incurred (Days)"
+                "Delivery Date", "Vendor Delivery Invoice", "Updated Status Remarks", "PRO Number", "Storage Incurred (Days)" ,"Remarks"
             ],
             use_container_width=True,
             hide_index = True,
@@ -58,15 +59,20 @@ def display_creditcontrol_report():
                 "HBL#": st.column_config.Column(pinned=True),
                 "Agraga Booking #": st.column_config.Column(pinned=True),
                 "Booking Status": st.column_config.Column(pinned=True),
-                "DO Release Approved?": st.column_config.CheckboxColumn("DO Release Approved?")
+                "DO Release Approved?": st.column_config.CheckboxColumn("DO Release Approved?"),
+                "Remarks": st.column_config.TextColumn(
+                    "Remarks",
+                    required=False
+                )
             },
             disabled=[
-                col for col in df.columns if col not in ["DO Release Approved?"]
+                col for col in df.columns if col not in ["DO Release Approved?","Remarks"]
             ],
             key="creditcontrol_editor"
         )
         edited_df["DO Release Approved?"] = edited_df["DO Release Approved?"].map({True: "Yes", False: ""})
         edited_df["DO Release Approved?"] = edited_df["DO Release Approved?"].astype(str).str.strip()
+        edited_df["Remarks"] = edited_df["Remarks"].astype(str).str.strip()
 
         # Replace 'nan' strings with empty string
         edited_df.replace("nan", "", inplace=True)
@@ -82,7 +88,7 @@ def display_creditcontrol_report():
                 edited_df.index = filtered_df.index  # Maintain correct row alignment
 
                 # Update only the edited columns
-                columns_to_update = ["DO Release Approved?"]
+                columns_to_update = ["DO Release Approved?","Remarks"]
                 for col in columns_to_update:
                     # Ensure both DataFrames treat the column as string type
                     original_df[col] = original_df[col].astype(str)
