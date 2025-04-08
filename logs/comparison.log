@@ -31,3 +31,184 @@ Columns: [(Customer Name, self), (Customer Name, other), (MBL#, self), (MBL#, ot
 Index: []
 2025-04-07 11:11:12,491 - INFO - Final updated report rows: 108
 2025-04-07 11:11:12,491 - INFO - ****************************************************************************************************
+2025-04-07 12:11:14,587 - INFO - Total rows in existing report: 108
+2025-04-07 12:11:14,587 - INFO - Total rows in generated report: 108
+2025-04-07 12:11:14,587 - INFO - Columns to compare (excluding keys and excluded): ['Customer Name', 'MBL#', 'HBL#', 'Booking Status', 'FBA?', 'Stuffing Date', 'Container #', 'ETD', 'ETA', 'SOB', 'ATA', 'Carrier', 'Consolidator', 'Origin', 'FPOD', 'Delivery Address', 'FBA Code', 'Packages', 'Pallets', 'importClearance', 'Duty Invoice', 'Duty Invoice Status', 'LFD', 'DO Released Date', 'Pick-up Date', 'Delivery Date', 'Updated Status Remarks']
+2025-04-07 12:11:14,589 - INFO - Common keys: 105
+2025-04-07 12:11:14,589 - INFO - New keys (to be added): 0
+2025-04-07 12:11:14,626 - INFO - Changed records: 0
+2025-04-07 12:11:14,626 - INFO - Sample changes:
+2025-04-07 12:11:14,634 - INFO - Empty DataFrame
+Columns: [(Customer Name, self), (Customer Name, other), (MBL#, self), (MBL#, other), (HBL#, self), (HBL#, other), (Booking Status, self), (Booking Status, other), (FBA?, self), (FBA?, other), (Stuffing Date, self), (Stuffing Date, other), (Container #, self), (Container #, other), (ETD, self), (ETD, other), (ETA, self), (ETA, other), (SOB, self), (SOB, other), (ATA, self), (ATA, other), (Carrier, self), (Carrier, other), (Consolidator, self), (Consolidator, other), (Origin, self), (Origin, other), (FPOD, self), (FPOD, other), (Delivery Address, self), (Delivery Address, other), (FBA Code, self), (FBA Code, other), (Packages, self), (Packages, other), (Pallets, self), (Pallets, other), (importClearance, self), (importClearance, other), (Duty Invoice, self), (Duty Invoice, other), (Duty Invoice Status, self), (Duty Invoice Status, other), (LFD, self), (LFD, other), (DO Released Date, self), (DO Released Date, other), (Pick-up Date, self), (Pick-up Date, other), (Delivery Date, self), (Delivery Date, other), (Updated Status Remarks, self), (Updated Status Remarks, other)]
+Index: []
+2025-04-07 12:11:14,644 - INFO - Final updated report rows: 108
+2025-04-07 12:11:14,644 - INFO - ****************************************************************************************************
+2025-04-07 13:11:16,738 - INFO - Total rows in existing report: 108
+2025-04-07 13:11:16,738 - INFO - Total rows in generated report: 108
+2025-04-07 13:11:16,738 - INFO - Columns to compare (excluding keys and excluded): ['Customer Name', 'MBL#', 'HBL#', 'Booking Status', 'FBA?', 'Stuffing Date', 'Container #', 'ETD', 'ETA', 'SOB', 'ATA', 'Carrier', 'Consolidator', 'Origin', 'FPOD', 'Delivery Address', 'FBA Code', 'Packages', 'Pallets', 'importClearance', 'Duty Invoice', 'Duty Invoice Status', 'LFD', 'DO Released Date', 'Pick-up Date', 'Delivery Date', 'Updated Status Remarks']
+2025-04-07 13:11:16,740 - INFO - Common keys: 105
+2025-04-07 13:11:16,740 - INFO - New keys (to be added): 0
+2025-04-07 13:11:16,778 - INFO - Changed records: 0
+2025-04-07 13:11:16,778 - INFO - Sample changes:
+2025-04-07 13:11:16,785 - INFO - Empty DataFrame
+Columns: [(Customer Name, self), (Customer Name, other), (MBL#, self), (MBL#, other), (HBL#, self), (HBL#, other), (Booking Status, self), (Booking Status, other), (FBA?, self), (FBA?, other), (Stuffing Date, self), (Stuffing Date, other), (Container #, self), (Container #, other), (ETD, self), (ETD, other), (ETA, self), (ETA, other), (SOB, self), (SOB, other), (ATA, self), (ATA, other), (Carrier, self), (Carrier, other), (Consolidator, self), (Consolidator, other), (Origin, self), (Origin, other), (FPOD, self), (FPOD, other), (Delivery Address, self), (Delivery Address, other), (FBA Code, self), (FBA Code, other), (Packages, self), (Packages, other), (Pallets, self), (Pallets, other), (importClearance, self), (importClearance, other), (Duty Invoice, self), (Duty Invoice, other), (Duty Invoice Status, self), (Duty Invoice Status, other), (LFD, self), (LFD, other), (DO Released Date, self), (DO Released Date, other), (Pick-up Date, self), (Pick-up Date, other), (Delivery Date, self), (Delivery Date, other), (Updated Status Remarks, self), (Updated Status Remarks, other)]
+Index: []
+2025-04-07 13:11:16,796 - INFO - Final updated report rows: 108
+2025-04-07 13:11:16,796 - INFO - ****************************************************************************************************
+2025-04-07 14:11:18,851 - INFO - Total rows in existing report: 108
+2025-04-07 14:11:18,852 - INFO - Total rows in generated report: 108
+2025-04-07 14:11:18,852 - INFO - Columns to compare (excluding keys and excluded): ['Customer Name', 'MBL#', 'HBL#', 'Booking Status', 'FBA?', 'Stuffing Date', 'Container #', 'ETD', 'ETA', 'SOB', 'ATA', 'Carrier', 'Consolidator', 'Origin', 'FPOD', 'Delivery Address', 'FBA Code', 'Packages', 'Pallets', 'importClearance', 'Duty Invoice', 'Duty Invoice Status', 'LFD', 'DO Released Date', 'Pick-up Date', 'Delivery Date', 'Updated Status Remarks']
+2025-04-07 14:11:18,853 - INFO - Common keys: 105
+2025-04-07 14:11:18,853 - INFO - New keys (to be added): 0
+2025-04-07 14:11:18,890 - INFO - Changed records: 0
+2025-04-07 14:11:18,890 - INFO - Sample changes:
+2025-04-07 14:11:18,897 - INFO - Empty DataFrame
+Columns: [(Customer Name, self), (Customer Name, other), (MBL#, self), (MBL#, other), (HBL#, self), (HBL#, other), (Booking Status, self), (Booking Status, other), (FBA?, self), (FBA?, other), (Stuffing Date, self), (Stuffing Date, other), (Container #, self), (Container #, other), (ETD, self), (ETD, other), (ETA, self), (ETA, other), (SOB, self), (SOB, other), (ATA, self), (ATA, other), (Carrier, self), (Carrier, other), (Consolidator, self), (Consolidator, other), (Origin, self), (Origin, other), (FPOD, self), (FPOD, other), (Delivery Address, self), (Delivery Address, other), (FBA Code, self), (FBA Code, other), (Packages, self), (Packages, other), (Pallets, self), (Pallets, other), (importClearance, self), (importClearance, other), (Duty Invoice, self), (Duty Invoice, other), (Duty Invoice Status, self), (Duty Invoice Status, other), (LFD, self), (LFD, other), (DO Released Date, self), (DO Released Date, other), (Pick-up Date, self), (Pick-up Date, other), (Delivery Date, self), (Delivery Date, other), (Updated Status Remarks, self), (Updated Status Remarks, other)]
+Index: []
+2025-04-07 14:11:18,907 - INFO - Final updated report rows: 108
+2025-04-07 14:11:18,907 - INFO - ****************************************************************************************************
+2025-04-07 15:11:21,008 - INFO - Total rows in existing report: 108
+2025-04-07 15:11:21,008 - INFO - Total rows in generated report: 108
+2025-04-07 15:11:21,008 - INFO - Columns to compare (excluding keys and excluded): ['Customer Name', 'MBL#', 'HBL#', 'Booking Status', 'FBA?', 'Stuffing Date', 'Container #', 'ETD', 'ETA', 'SOB', 'ATA', 'Carrier', 'Consolidator', 'Origin', 'FPOD', 'Delivery Address', 'FBA Code', 'Packages', 'Pallets', 'importClearance', 'Duty Invoice', 'Duty Invoice Status', 'LFD', 'DO Released Date', 'Pick-up Date', 'Delivery Date', 'Updated Status Remarks']
+2025-04-07 15:11:21,010 - INFO - Common keys: 105
+2025-04-07 15:11:21,010 - INFO - New keys (to be added): 0
+2025-04-07 15:11:21,049 - INFO - Changed records: 0
+2025-04-07 15:11:21,049 - INFO - Sample changes:
+2025-04-07 15:11:21,057 - INFO - Empty DataFrame
+Columns: [(Customer Name, self), (Customer Name, other), (MBL#, self), (MBL#, other), (HBL#, self), (HBL#, other), (Booking Status, self), (Booking Status, other), (FBA?, self), (FBA?, other), (Stuffing Date, self), (Stuffing Date, other), (Container #, self), (Container #, other), (ETD, self), (ETD, other), (ETA, self), (ETA, other), (SOB, self), (SOB, other), (ATA, self), (ATA, other), (Carrier, self), (Carrier, other), (Consolidator, self), (Consolidator, other), (Origin, self), (Origin, other), (FPOD, self), (FPOD, other), (Delivery Address, self), (Delivery Address, other), (FBA Code, self), (FBA Code, other), (Packages, self), (Packages, other), (Pallets, self), (Pallets, other), (importClearance, self), (importClearance, other), (Duty Invoice, self), (Duty Invoice, other), (Duty Invoice Status, self), (Duty Invoice Status, other), (LFD, self), (LFD, other), (DO Released Date, self), (DO Released Date, other), (Pick-up Date, self), (Pick-up Date, other), (Delivery Date, self), (Delivery Date, other), (Updated Status Remarks, self), (Updated Status Remarks, other)]
+Index: []
+2025-04-07 15:11:21,067 - INFO - Final updated report rows: 108
+2025-04-07 15:11:21,067 - INFO - ****************************************************************************************************
+2025-04-07 16:11:23,235 - INFO - Total rows in existing report: 108
+2025-04-07 16:11:23,236 - INFO - Total rows in generated report: 108
+2025-04-07 16:11:23,236 - INFO - Columns to compare (excluding keys and excluded): ['Customer Name', 'MBL#', 'HBL#', 'Booking Status', 'FBA?', 'Stuffing Date', 'Container #', 'ETD', 'ETA', 'SOB', 'ATA', 'Carrier', 'Consolidator', 'Origin', 'FPOD', 'Delivery Address', 'FBA Code', 'Packages', 'Pallets', 'importClearance', 'Duty Invoice', 'Duty Invoice Status', 'LFD', 'DO Released Date', 'Pick-up Date', 'Delivery Date', 'Updated Status Remarks']
+2025-04-07 16:11:23,237 - INFO - Common keys: 105
+2025-04-07 16:11:23,237 - INFO - New keys (to be added): 0
+2025-04-07 16:11:23,276 - INFO - Changed records: 0
+2025-04-07 16:11:23,276 - INFO - Sample changes:
+2025-04-07 16:11:23,283 - INFO - Empty DataFrame
+Columns: [(Customer Name, self), (Customer Name, other), (MBL#, self), (MBL#, other), (HBL#, self), (HBL#, other), (Booking Status, self), (Booking Status, other), (FBA?, self), (FBA?, other), (Stuffing Date, self), (Stuffing Date, other), (Container #, self), (Container #, other), (ETD, self), (ETD, other), (ETA, self), (ETA, other), (SOB, self), (SOB, other), (ATA, self), (ATA, other), (Carrier, self), (Carrier, other), (Consolidator, self), (Consolidator, other), (Origin, self), (Origin, other), (FPOD, self), (FPOD, other), (Delivery Address, self), (Delivery Address, other), (FBA Code, self), (FBA Code, other), (Packages, self), (Packages, other), (Pallets, self), (Pallets, other), (importClearance, self), (importClearance, other), (Duty Invoice, self), (Duty Invoice, other), (Duty Invoice Status, self), (Duty Invoice Status, other), (LFD, self), (LFD, other), (DO Released Date, self), (DO Released Date, other), (Pick-up Date, self), (Pick-up Date, other), (Delivery Date, self), (Delivery Date, other), (Updated Status Remarks, self), (Updated Status Remarks, other)]
+Index: []
+2025-04-07 16:11:23,294 - INFO - Final updated report rows: 108
+2025-04-07 16:11:23,294 - INFO - ****************************************************************************************************
+2025-04-07 17:11:25,377 - INFO - Total rows in existing report: 108
+2025-04-07 17:11:25,377 - INFO - Total rows in generated report: 108
+2025-04-07 17:11:25,377 - INFO - Columns to compare (excluding keys and excluded): ['Customer Name', 'MBL#', 'HBL#', 'Booking Status', 'FBA?', 'Stuffing Date', 'Container #', 'ETD', 'ETA', 'SOB', 'ATA', 'Carrier', 'Consolidator', 'Origin', 'FPOD', 'Delivery Address', 'FBA Code', 'Packages', 'Pallets', 'importClearance', 'Duty Invoice', 'Duty Invoice Status', 'LFD', 'DO Released Date', 'Pick-up Date', 'Delivery Date', 'Updated Status Remarks']
+2025-04-07 17:11:25,379 - INFO - Common keys: 105
+2025-04-07 17:11:25,379 - INFO - New keys (to be added): 0
+2025-04-07 17:11:25,415 - INFO - Changed records: 0
+2025-04-07 17:11:25,415 - INFO - Sample changes:
+2025-04-07 17:11:25,422 - INFO - Empty DataFrame
+Columns: [(Customer Name, self), (Customer Name, other), (MBL#, self), (MBL#, other), (HBL#, self), (HBL#, other), (Booking Status, self), (Booking Status, other), (FBA?, self), (FBA?, other), (Stuffing Date, self), (Stuffing Date, other), (Container #, self), (Container #, other), (ETD, self), (ETD, other), (ETA, self), (ETA, other), (SOB, self), (SOB, other), (ATA, self), (ATA, other), (Carrier, self), (Carrier, other), (Consolidator, self), (Consolidator, other), (Origin, self), (Origin, other), (FPOD, self), (FPOD, other), (Delivery Address, self), (Delivery Address, other), (FBA Code, self), (FBA Code, other), (Packages, self), (Packages, other), (Pallets, self), (Pallets, other), (importClearance, self), (importClearance, other), (Duty Invoice, self), (Duty Invoice, other), (Duty Invoice Status, self), (Duty Invoice Status, other), (LFD, self), (LFD, other), (DO Released Date, self), (DO Released Date, other), (Pick-up Date, self), (Pick-up Date, other), (Delivery Date, self), (Delivery Date, other), (Updated Status Remarks, self), (Updated Status Remarks, other)]
+Index: []
+2025-04-07 17:11:25,432 - INFO - Final updated report rows: 108
+2025-04-07 17:11:25,432 - INFO - ****************************************************************************************************
+2025-04-07 18:11:27,521 - INFO - Total rows in existing report: 108
+2025-04-07 18:11:27,521 - INFO - Total rows in generated report: 108
+2025-04-07 18:11:27,521 - INFO - Columns to compare (excluding keys and excluded): ['Customer Name', 'MBL#', 'HBL#', 'Booking Status', 'FBA?', 'Stuffing Date', 'Container #', 'ETD', 'ETA', 'SOB', 'ATA', 'Carrier', 'Consolidator', 'Origin', 'FPOD', 'Delivery Address', 'FBA Code', 'Packages', 'Pallets', 'importClearance', 'Duty Invoice', 'Duty Invoice Status', 'LFD', 'DO Released Date', 'Pick-up Date', 'Delivery Date', 'Updated Status Remarks']
+2025-04-07 18:11:27,522 - INFO - Common keys: 105
+2025-04-07 18:11:27,522 - INFO - New keys (to be added): 0
+2025-04-07 18:11:27,558 - INFO - Changed records: 0
+2025-04-07 18:11:27,558 - INFO - Sample changes:
+2025-04-07 18:11:27,566 - INFO - Empty DataFrame
+Columns: [(Customer Name, self), (Customer Name, other), (MBL#, self), (MBL#, other), (HBL#, self), (HBL#, other), (Booking Status, self), (Booking Status, other), (FBA?, self), (FBA?, other), (Stuffing Date, self), (Stuffing Date, other), (Container #, self), (Container #, other), (ETD, self), (ETD, other), (ETA, self), (ETA, other), (SOB, self), (SOB, other), (ATA, self), (ATA, other), (Carrier, self), (Carrier, other), (Consolidator, self), (Consolidator, other), (Origin, self), (Origin, other), (FPOD, self), (FPOD, other), (Delivery Address, self), (Delivery Address, other), (FBA Code, self), (FBA Code, other), (Packages, self), (Packages, other), (Pallets, self), (Pallets, other), (importClearance, self), (importClearance, other), (Duty Invoice, self), (Duty Invoice, other), (Duty Invoice Status, self), (Duty Invoice Status, other), (LFD, self), (LFD, other), (DO Released Date, self), (DO Released Date, other), (Pick-up Date, self), (Pick-up Date, other), (Delivery Date, self), (Delivery Date, other), (Updated Status Remarks, self), (Updated Status Remarks, other)]
+Index: []
+2025-04-07 18:11:27,575 - INFO - Final updated report rows: 108
+2025-04-07 18:11:27,575 - INFO - ****************************************************************************************************
+2025-04-07 19:11:29,595 - INFO - Total rows in existing report: 108
+2025-04-07 19:11:29,595 - INFO - Total rows in generated report: 108
+2025-04-07 19:11:29,595 - INFO - Columns to compare (excluding keys and excluded): ['Customer Name', 'MBL#', 'HBL#', 'Booking Status', 'FBA?', 'Stuffing Date', 'Container #', 'ETD', 'ETA', 'SOB', 'ATA', 'Carrier', 'Consolidator', 'Origin', 'FPOD', 'Delivery Address', 'FBA Code', 'Packages', 'Pallets', 'importClearance', 'Duty Invoice', 'Duty Invoice Status', 'LFD', 'DO Released Date', 'Pick-up Date', 'Delivery Date', 'Updated Status Remarks']
+2025-04-07 19:11:29,596 - INFO - Common keys: 105
+2025-04-07 19:11:29,597 - INFO - New keys (to be added): 0
+2025-04-07 19:11:29,634 - INFO - Changed records: 1
+2025-04-07 19:11:29,634 - INFO - Sample changes:
+2025-04-07 19:11:29,652 - INFO -                    Customer Name       MBL#       HBL#       Booking Status       FBA?       Stuffing Date       Container #        ETD        ETA        SOB        ATA       Carrier       Consolidator       Origin       FPOD       Delivery Address       FBA Code       Packages       Pallets       importClearance       Duty Invoice       Duty Invoice Status        LFD       DO Released Date       Pick-up Date       Delivery Date             Updated Status Remarks      
+                            self other self other self other           self other self other          self other        self other self other self other self other self other    self other         self other   self other self other             self other     self other     self other    self other            self other         self other                self other self other             self other         self other          self       other                   self other
+Agraga Booking #                                                                                                                                                                                                                                                                                                                                                                                                                                                                         
+2501LCLCMM06440006           NaN   NaN  NaN   NaN  NaN   NaN            NaN   NaN  NaN   NaN           NaN   NaN         NaN   NaN  NaN   NaN  NaN   NaN  NaN   NaN  NaN   NaN     NaN   NaN          NaN   NaN    NaN   NaN  NaN   NaN              NaN   NaN      NaN   NaN      NaN   NaN     NaN   NaN             NaN   NaN          NaN   NaN                 NaN   NaN  NaN   NaN              NaN   NaN          NaN   NaN           NaN  04-04-2025                    NaN   NaN
+2025-04-07 19:11:29,670 - INFO - Final updated report rows: 108
+2025-04-07 19:11:29,670 - INFO - ****************************************************************************************************
+2025-04-07 20:11:31,787 - INFO - Total rows in existing report: 108
+2025-04-07 20:11:31,787 - INFO - Total rows in generated report: 108
+2025-04-07 20:11:31,787 - INFO - Columns to compare (excluding keys and excluded): ['Customer Name', 'MBL#', 'HBL#', 'Booking Status', 'FBA?', 'Stuffing Date', 'Container #', 'ETD', 'ETA', 'SOB', 'ATA', 'Carrier', 'Consolidator', 'Origin', 'FPOD', 'Delivery Address', 'FBA Code', 'Packages', 'Pallets', 'importClearance', 'Duty Invoice', 'Duty Invoice Status', 'LFD', 'DO Released Date', 'Pick-up Date', 'Delivery Date', 'Updated Status Remarks']
+2025-04-07 20:11:31,788 - INFO - Common keys: 105
+2025-04-07 20:11:31,788 - INFO - New keys (to be added): 0
+2025-04-07 20:11:31,828 - INFO - Changed records: 0
+2025-04-07 20:11:31,829 - INFO - Sample changes:
+2025-04-07 20:11:31,836 - INFO - Empty DataFrame
+Columns: [(Customer Name, self), (Customer Name, other), (MBL#, self), (MBL#, other), (HBL#, self), (HBL#, other), (Booking Status, self), (Booking Status, other), (FBA?, self), (FBA?, other), (Stuffing Date, self), (Stuffing Date, other), (Container #, self), (Container #, other), (ETD, self), (ETD, other), (ETA, self), (ETA, other), (SOB, self), (SOB, other), (ATA, self), (ATA, other), (Carrier, self), (Carrier, other), (Consolidator, self), (Consolidator, other), (Origin, self), (Origin, other), (FPOD, self), (FPOD, other), (Delivery Address, self), (Delivery Address, other), (FBA Code, self), (FBA Code, other), (Packages, self), (Packages, other), (Pallets, self), (Pallets, other), (importClearance, self), (importClearance, other), (Duty Invoice, self), (Duty Invoice, other), (Duty Invoice Status, self), (Duty Invoice Status, other), (LFD, self), (LFD, other), (DO Released Date, self), (DO Released Date, other), (Pick-up Date, self), (Pick-up Date, other), (Delivery Date, self), (Delivery Date, other), (Updated Status Remarks, self), (Updated Status Remarks, other)]
+Index: []
+2025-04-07 20:11:31,847 - INFO - Final updated report rows: 108
+2025-04-07 20:11:31,847 - INFO - ****************************************************************************************************
+2025-04-07 21:11:33,926 - INFO - Total rows in existing report: 108
+2025-04-07 21:11:33,926 - INFO - Total rows in generated report: 108
+2025-04-07 21:11:33,926 - INFO - Columns to compare (excluding keys and excluded): ['Customer Name', 'MBL#', 'HBL#', 'Booking Status', 'FBA?', 'Stuffing Date', 'Container #', 'ETD', 'ETA', 'SOB', 'ATA', 'Carrier', 'Consolidator', 'Origin', 'FPOD', 'Delivery Address', 'FBA Code', 'Packages', 'Pallets', 'importClearance', 'Duty Invoice', 'Duty Invoice Status', 'LFD', 'DO Released Date', 'Pick-up Date', 'Delivery Date', 'Updated Status Remarks']
+2025-04-07 21:11:33,927 - INFO - Common keys: 105
+2025-04-07 21:11:33,928 - INFO - New keys (to be added): 0
+2025-04-07 21:11:33,966 - INFO - Changed records: 0
+2025-04-07 21:11:33,966 - INFO - Sample changes:
+2025-04-07 21:11:33,974 - INFO - Empty DataFrame
+Columns: [(Customer Name, self), (Customer Name, other), (MBL#, self), (MBL#, other), (HBL#, self), (HBL#, other), (Booking Status, self), (Booking Status, other), (FBA?, self), (FBA?, other), (Stuffing Date, self), (Stuffing Date, other), (Container #, self), (Container #, other), (ETD, self), (ETD, other), (ETA, self), (ETA, other), (SOB, self), (SOB, other), (ATA, self), (ATA, other), (Carrier, self), (Carrier, other), (Consolidator, self), (Consolidator, other), (Origin, self), (Origin, other), (FPOD, self), (FPOD, other), (Delivery Address, self), (Delivery Address, other), (FBA Code, self), (FBA Code, other), (Packages, self), (Packages, other), (Pallets, self), (Pallets, other), (importClearance, self), (importClearance, other), (Duty Invoice, self), (Duty Invoice, other), (Duty Invoice Status, self), (Duty Invoice Status, other), (LFD, self), (LFD, other), (DO Released Date, self), (DO Released Date, other), (Pick-up Date, self), (Pick-up Date, other), (Delivery Date, self), (Delivery Date, other), (Updated Status Remarks, self), (Updated Status Remarks, other)]
+Index: []
+2025-04-07 21:11:33,984 - INFO - Final updated report rows: 108
+2025-04-07 21:11:33,984 - INFO - ****************************************************************************************************
+2025-04-07 22:11:36,058 - INFO - Total rows in existing report: 108
+2025-04-07 22:11:36,058 - INFO - Total rows in generated report: 108
+2025-04-07 22:11:36,058 - INFO - Columns to compare (excluding keys and excluded): ['Customer Name', 'MBL#', 'HBL#', 'Booking Status', 'FBA?', 'Stuffing Date', 'Container #', 'ETD', 'ETA', 'SOB', 'ATA', 'Carrier', 'Consolidator', 'Origin', 'FPOD', 'Delivery Address', 'FBA Code', 'Packages', 'Pallets', 'importClearance', 'Duty Invoice', 'Duty Invoice Status', 'LFD', 'DO Released Date', 'Pick-up Date', 'Delivery Date', 'Updated Status Remarks']
+2025-04-07 22:11:36,060 - INFO - Common keys: 105
+2025-04-07 22:11:36,060 - INFO - New keys (to be added): 0
+2025-04-07 22:11:36,095 - INFO - Changed records: 0
+2025-04-07 22:11:36,096 - INFO - Sample changes:
+2025-04-07 22:11:36,103 - INFO - Empty DataFrame
+Columns: [(Customer Name, self), (Customer Name, other), (MBL#, self), (MBL#, other), (HBL#, self), (HBL#, other), (Booking Status, self), (Booking Status, other), (FBA?, self), (FBA?, other), (Stuffing Date, self), (Stuffing Date, other), (Container #, self), (Container #, other), (ETD, self), (ETD, other), (ETA, self), (ETA, other), (SOB, self), (SOB, other), (ATA, self), (ATA, other), (Carrier, self), (Carrier, other), (Consolidator, self), (Consolidator, other), (Origin, self), (Origin, other), (FPOD, self), (FPOD, other), (Delivery Address, self), (Delivery Address, other), (FBA Code, self), (FBA Code, other), (Packages, self), (Packages, other), (Pallets, self), (Pallets, other), (importClearance, self), (importClearance, other), (Duty Invoice, self), (Duty Invoice, other), (Duty Invoice Status, self), (Duty Invoice Status, other), (LFD, self), (LFD, other), (DO Released Date, self), (DO Released Date, other), (Pick-up Date, self), (Pick-up Date, other), (Delivery Date, self), (Delivery Date, other), (Updated Status Remarks, self), (Updated Status Remarks, other)]
+Index: []
+2025-04-07 22:11:36,112 - INFO - Final updated report rows: 108
+2025-04-07 22:11:36,113 - INFO - ****************************************************************************************************
+2025-04-07 23:11:38,154 - INFO - Total rows in existing report: 108
+2025-04-07 23:11:38,154 - INFO - Total rows in generated report: 108
+2025-04-07 23:11:38,154 - INFO - Columns to compare (excluding keys and excluded): ['Customer Name', 'MBL#', 'HBL#', 'Booking Status', 'FBA?', 'Stuffing Date', 'Container #', 'ETD', 'ETA', 'SOB', 'ATA', 'Carrier', 'Consolidator', 'Origin', 'FPOD', 'Delivery Address', 'FBA Code', 'Packages', 'Pallets', 'importClearance', 'Duty Invoice', 'Duty Invoice Status', 'LFD', 'DO Released Date', 'Pick-up Date', 'Delivery Date', 'Updated Status Remarks']
+2025-04-07 23:11:38,155 - INFO - Common keys: 105
+2025-04-07 23:11:38,156 - INFO - New keys (to be added): 0
+2025-04-07 23:11:38,192 - INFO - Changed records: 0
+2025-04-07 23:11:38,192 - INFO - Sample changes:
+2025-04-07 23:11:38,200 - INFO - Empty DataFrame
+Columns: [(Customer Name, self), (Customer Name, other), (MBL#, self), (MBL#, other), (HBL#, self), (HBL#, other), (Booking Status, self), (Booking Status, other), (FBA?, self), (FBA?, other), (Stuffing Date, self), (Stuffing Date, other), (Container #, self), (Container #, other), (ETD, self), (ETD, other), (ETA, self), (ETA, other), (SOB, self), (SOB, other), (ATA, self), (ATA, other), (Carrier, self), (Carrier, other), (Consolidator, self), (Consolidator, other), (Origin, self), (Origin, other), (FPOD, self), (FPOD, other), (Delivery Address, self), (Delivery Address, other), (FBA Code, self), (FBA Code, other), (Packages, self), (Packages, other), (Pallets, self), (Pallets, other), (importClearance, self), (importClearance, other), (Duty Invoice, self), (Duty Invoice, other), (Duty Invoice Status, self), (Duty Invoice Status, other), (LFD, self), (LFD, other), (DO Released Date, self), (DO Released Date, other), (Pick-up Date, self), (Pick-up Date, other), (Delivery Date, self), (Delivery Date, other), (Updated Status Remarks, self), (Updated Status Remarks, other)]
+Index: []
+2025-04-07 23:11:38,210 - INFO - Final updated report rows: 108
+2025-04-07 23:11:38,210 - INFO - ****************************************************************************************************
+2025-04-08 00:11:40,331 - INFO - Total rows in existing report: 108
+2025-04-08 00:11:40,331 - INFO - Total rows in generated report: 108
+2025-04-08 00:11:40,331 - INFO - Columns to compare (excluding keys and excluded): ['Customer Name', 'MBL#', 'HBL#', 'Booking Status', 'FBA?', 'Stuffing Date', 'Container #', 'ETD', 'ETA', 'SOB', 'ATA', 'Carrier', 'Consolidator', 'Origin', 'FPOD', 'Delivery Address', 'FBA Code', 'Packages', 'Pallets', 'importClearance', 'Duty Invoice', 'Duty Invoice Status', 'LFD', 'DO Released Date', 'Pick-up Date', 'Delivery Date', 'Updated Status Remarks']
+2025-04-08 00:11:40,333 - INFO - Common keys: 105
+2025-04-08 00:11:40,333 - INFO - New keys (to be added): 0
+2025-04-08 00:11:40,368 - INFO - Changed records: 0
+2025-04-08 00:11:40,368 - INFO - Sample changes:
+2025-04-08 00:11:40,376 - INFO - Empty DataFrame
+Columns: [(Customer Name, self), (Customer Name, other), (MBL#, self), (MBL#, other), (HBL#, self), (HBL#, other), (Booking Status, self), (Booking Status, other), (FBA?, self), (FBA?, other), (Stuffing Date, self), (Stuffing Date, other), (Container #, self), (Container #, other), (ETD, self), (ETD, other), (ETA, self), (ETA, other), (SOB, self), (SOB, other), (ATA, self), (ATA, other), (Carrier, self), (Carrier, other), (Consolidator, self), (Consolidator, other), (Origin, self), (Origin, other), (FPOD, self), (FPOD, other), (Delivery Address, self), (Delivery Address, other), (FBA Code, self), (FBA Code, other), (Packages, self), (Packages, other), (Pallets, self), (Pallets, other), (importClearance, self), (importClearance, other), (Duty Invoice, self), (Duty Invoice, other), (Duty Invoice Status, self), (Duty Invoice Status, other), (LFD, self), (LFD, other), (DO Released Date, self), (DO Released Date, other), (Pick-up Date, self), (Pick-up Date, other), (Delivery Date, self), (Delivery Date, other), (Updated Status Remarks, self), (Updated Status Remarks, other)]
+Index: []
+2025-04-08 00:11:40,385 - INFO - Final updated report rows: 108
+2025-04-08 00:11:40,385 - INFO - ****************************************************************************************************
+2025-04-08 01:11:42,458 - INFO - Total rows in existing report: 108
+2025-04-08 01:11:42,459 - INFO - Total rows in generated report: 108
+2025-04-08 01:11:42,459 - INFO - Columns to compare (excluding keys and excluded): ['Customer Name', 'MBL#', 'HBL#', 'Booking Status', 'FBA?', 'Stuffing Date', 'Container #', 'ETD', 'ETA', 'SOB', 'ATA', 'Carrier', 'Consolidator', 'Origin', 'FPOD', 'Delivery Address', 'FBA Code', 'Packages', 'Pallets', 'importClearance', 'Duty Invoice', 'Duty Invoice Status', 'LFD', 'DO Released Date', 'Pick-up Date', 'Delivery Date', 'Updated Status Remarks']
+2025-04-08 01:11:42,460 - INFO - Common keys: 105
+2025-04-08 01:11:42,460 - INFO - New keys (to be added): 0
+2025-04-08 01:11:42,495 - INFO - Changed records: 0
+2025-04-08 01:11:42,495 - INFO - Sample changes:
+2025-04-08 01:11:42,503 - INFO - Empty DataFrame
+Columns: [(Customer Name, self), (Customer Name, other), (MBL#, self), (MBL#, other), (HBL#, self), (HBL#, other), (Booking Status, self), (Booking Status, other), (FBA?, self), (FBA?, other), (Stuffing Date, self), (Stuffing Date, other), (Container #, self), (Container #, other), (ETD, self), (ETD, other), (ETA, self), (ETA, other), (SOB, self), (SOB, other), (ATA, self), (ATA, other), (Carrier, self), (Carrier, other), (Consolidator, self), (Consolidator, other), (Origin, self), (Origin, other), (FPOD, self), (FPOD, other), (Delivery Address, self), (Delivery Address, other), (FBA Code, self), (FBA Code, other), (Packages, self), (Packages, other), (Pallets, self), (Pallets, other), (importClearance, self), (importClearance, other), (Duty Invoice, self), (Duty Invoice, other), (Duty Invoice Status, self), (Duty Invoice Status, other), (LFD, self), (LFD, other), (DO Released Date, self), (DO Released Date, other), (Pick-up Date, self), (Pick-up Date, other), (Delivery Date, self), (Delivery Date, other), (Updated Status Remarks, self), (Updated Status Remarks, other)]
+Index: []
+2025-04-08 01:11:42,512 - INFO - Final updated report rows: 108
+2025-04-08 01:11:42,512 - INFO - ****************************************************************************************************
+2025-04-08 02:11:44,604 - INFO - Total rows in existing report: 108
+2025-04-08 02:11:44,605 - INFO - Total rows in generated report: 108
+2025-04-08 02:11:44,605 - INFO - Columns to compare (excluding keys and excluded): ['Customer Name', 'MBL#', 'HBL#', 'Booking Status', 'FBA?', 'Stuffing Date', 'Container #', 'ETD', 'ETA', 'SOB', 'ATA', 'Carrier', 'Consolidator', 'Origin', 'FPOD', 'Delivery Address', 'FBA Code', 'Packages', 'Pallets', 'importClearance', 'Duty Invoice', 'Duty Invoice Status', 'LFD', 'DO Released Date', 'Pick-up Date', 'Delivery Date', 'Updated Status Remarks']
+2025-04-08 02:11:44,606 - INFO - Common keys: 105
+2025-04-08 02:11:44,606 - INFO - New keys (to be added): 0
+2025-04-08 02:11:44,642 - INFO - Changed records: 0
+2025-04-08 02:11:44,642 - INFO - Sample changes:
+2025-04-08 02:11:44,650 - INFO - Empty DataFrame
+Columns: [(Customer Name, self), (Customer Name, other), (MBL#, self), (MBL#, other), (HBL#, self), (HBL#, other), (Booking Status, self), (Booking Status, other), (FBA?, self), (FBA?, other), (Stuffing Date, self), (Stuffing Date, other), (Container #, self), (Container #, other), (ETD, self), (ETD, other), (ETA, self), (ETA, other), (SOB, self), (SOB, other), (ATA, self), (ATA, other), (Carrier, self), (Carrier, other), (Consolidator, self), (Consolidator, other), (Origin, self), (Origin, other), (FPOD, self), (FPOD, other), (Delivery Address, self), (Delivery Address, other), (FBA Code, self), (FBA Code, other), (Packages, self), (Packages, other), (Pallets, self), (Pallets, other), (importClearance, self), (importClearance, other), (Duty Invoice, self), (Duty Invoice, other), (Duty Invoice Status, self), (Duty Invoice Status, other), (LFD, self), (LFD, other), (DO Released Date, self), (DO Released Date, other), (Pick-up Date, self), (Pick-up Date, other), (Delivery Date, self), (Delivery Date, other), (Updated Status Remarks, self), (Updated Status Remarks, other)]
+Index: []
+2025-04-08 02:11:44,659 - INFO - Final updated report rows: 108
+2025-04-08 02:11:44,660 - INFO - ****************************************************************************************************
