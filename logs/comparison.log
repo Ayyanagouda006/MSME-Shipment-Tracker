@@ -70,3 +70,12 @@ composite_key
 2025-04-14 10:00:53,094 - INFO - Final updated report rows: 121
 2025-04-14 10:00:53,095 - INFO - Comparison and update complete.
 2025-04-14 10:00:53,095 - INFO - ****************************************************************************************************
+2025-04-14 15:37:01,121 - INFO - Total existing rows: 0
+2025-04-14 15:37:01,121 - INFO - Total generated rows: 110
+2025-04-14 15:37:01,121 - INFO - Comparing columns: ['Customer Name', 'MBL#', 'HBL#', 'Booking Status', 'FBA?', 'Stuffing Date', 'Container #', 'ETD', 'ETA', 'SOB', 'ATA', 'Carrier', 'Consolidator', 'Origin', 'FPOD', 'Delivery Address', 'FBA Code', 'Packages', 'Pallets', 'importClearance', 'Duty Invoice', 'Duty Invoice Status', 'LFD', 'DO Released Date', 'Pick-up Date', 'Delivery Date', 'Updated Status Remarks']
+2025-04-14 15:37:01,134 - INFO - Common records: 0
+2025-04-14 15:37:01,135 - INFO - New records: 110
+2025-04-14 15:37:01,135 - INFO - Changed rows found: 0
+2025-04-14 15:37:01,149 - INFO - Final updated report rows: 110
+2025-04-14 15:37:01,149 - INFO - Comparison and update complete.
+2025-04-14 15:37:01,149 - INFO - ****************************************************************************************************
