@@ -438,72 +438,115 @@ def booking_process(bookings, Addressdetails):
             booking_processlog.error(f"Error processing Booking ID {rows.get('_id', 'UNKNOWN')}: {str(e)}")
 
     final_df = pd.DataFrame(result_rows)
+    final_df = final_df[final_df['Customer Name'] != 'Arora Foods']
+    desired_columns = [
+        "Agraga Booking #", "Customer Name", "MBL#", "HBL#", "Booking Status", "FBA?", "ISF Filing",
+        "Stuffing Date", "Container #", "ETD", "ETA", "SOB", "ATA", "Carrier", "Consolidator",
+        "Origin", "FPOD", "CFS", "Delivery Address", "FBA Code", "Freight Broker", "Transporter", "Delivery Quote",
+        "Packages", "Pallets", "importClearance", "Duty Invoice", "Duty Invoice Status", "Actual # of Pallets", "Ready for Pick-up Date",
+        "LFD", "DO Release Approved?", "HBL Released Date", "DO Released Date", "Pick-up Date", "Pick up number",
+        "Delivery Appointment Date", "Delivery Date", "Vendor Delivery Invoice", "Updated Status Remarks", "PRO Number", "Storage Incurred (Days)",
+        "Remarks"
+    ]
+
+    final_df = final_df.reindex(columns=desired_columns)
+
     booking_processlog.info(f"Finished booking_process with {len(result_rows)} rows created.")
     booking_processlog.info('*'*100)
     
     return final_df
 
-
 def process_report(existing_report, generated_report):
     key_col = 'Agraga Booking #'
-    exclude_cols = ['ISF Filing', 'CFS', 'Freight Broker', 'Transporter', 'Delivery Quote',
-                    'Actual # of Pallets', 'Ready for Pick-up Date', 'DO Release Approved?', 
-                    'HBL Released Date', 'Pick up number', 'Delivery Appointment Date',
-                    'Vendor Delivery Invoice', 'PRO Number', 'Storage Incurred (Days)','Remarks']
+    exclude_cols = [
+        'ISF Filing', 'CFS', 'Freight Broker', 'Transporter', 'Delivery Quote',
+        'Actual # of Pallets', 'Ready for Pick-up Date', 'DO Release Approved?',
+        'HBL Released Date', 'Pick up number', 'Delivery Appointment Date',
+        'Vendor Delivery Invoice', 'PRO Number', 'Storage Incurred (Days)', 'Remarks'
+    ]
+
+    # Save original dtypes of existing report
+    original_dtypes = existing_report.dtypes
+
+    # Convert existing report dtypes to match generated report for comparison
+    for col in existing_report.columns:
+        if col in generated_report.columns:
+            try:
+                existing_report[col] = existing_report[col].astype(generated_report[col].dtype)
+            except Exception:
+                existing_report[col] = existing_report[col].astype("object")
+                generated_report[col] = generated_report[col].astype("object")
 
     compare_cols = [col for col in existing_report.columns if col not in exclude_cols + [key_col]]
 
-    comparisonlog.info(f"Total rows in existing report: {len(existing_report)}")
-    comparisonlog.info(f"Total rows in generated report: {len(generated_report)}")
-    comparisonlog.info(f"Columns to compare (excluding keys and excluded): {compare_cols}")
+    comparisonlog.info(f"Total existing rows: {len(existing_report)}")
+    comparisonlog.info(f"Total generated rows: {len(generated_report)}")
+    comparisonlog.info(f"Comparing columns: {compare_cols}")
 
-    existing_df = existing_report.set_index(key_col)
-    generated_df = generated_report.set_index(key_col)
+    # Add a helper index to differentiate duplicate keys
+    existing_report = existing_report.copy().reset_index(drop=True)
+    generated_report = generated_report.copy().reset_index(drop=True)
 
-    # Step 1: Key comparison
+    # Create a composite key using key_col and row number
+    existing_report['row_id'] = existing_report.groupby(key_col).cumcount()
+    generated_report['row_id'] = generated_report.groupby(key_col).cumcount()
+
+    existing_report['composite_key'] = existing_report[key_col].astype(str) + '_' + existing_report['row_id'].astype(str)
+    generated_report['composite_key'] = generated_report[key_col].astype(str) + '_' + generated_report['row_id'].astype(str)
+
+    existing_df = existing_report.set_index('composite_key')
+    generated_df = generated_report.set_index('composite_key')
+
     common_keys = existing_df.index.intersection(generated_df.index)
     new_keys = generated_df.index.difference(existing_df.index)
 
-    comparisonlog.info(f"Common keys: {len(common_keys)}")
-    comparisonlog.info(f"New keys (to be added): {len(new_keys)}")
+    comparisonlog.info(f"Common records: {len(common_keys)}")
+    comparisonlog.info(f"New records: {len(new_keys)}")
 
-    # Step 2: Ensure compatible data types before assignment
-    for col in compare_cols:
-        final_dtype = existing_df[col].dtype  # Get target column type
+    updated_keys = []
+    for key in common_keys:
+        existing_row = existing_df.loc[key, compare_cols]
+        generated_row = generated_df.loc[key, compare_cols]
+        if not existing_row.equals(generated_row):
+            updated_keys.append(key)
 
-        # Replace empty strings with NaN (avoids dtype conflicts)
-        generated_df[col].replace('', np.nan, inplace=True)
+    comparisonlog.info(f"Changed rows found: {len(updated_keys)}")
 
-        # Convert generated_df column to match existing_df's dtype
-        try:
-            generated_df[col] = generated_df[col].astype(final_dtype, errors='ignore')
-        except Exception as e:
-            comparisonlog.warning(f"Column {col}: Type mismatch ({generated_df[col].dtype} -> {final_dtype}) - {e}")
-
-    # Step 3: Row comparison
-    updated_rows = existing_df.loc[common_keys, compare_cols] \
-        .compare(generated_df.loc[common_keys, compare_cols], keep_shape=True, keep_equal=False)
-
-    changed_keys = updated_rows.dropna(how='all').index
-    comparisonlog.info(f"Changed records: {len(changed_keys)}")
-
-    # Log actual changes (optional: can be verbose)
-    if not updated_rows.empty:
+    if updated_keys:
+        sample_changes = existing_df.loc[updated_keys, compare_cols].combine_first(generated_df.loc[updated_keys, compare_cols])
         comparisonlog.info("Sample changes:")
-        comparisonlog.info(updated_rows.dropna(how='all').head().to_string())
+        comparisonlog.info(sample_changes.head().to_string())
 
-    # Step 4: Apply updates safely
+    # Apply updates to existing data
     final_df = existing_df.copy()
-    final_df.loc[changed_keys, compare_cols] = generated_df.loc[changed_keys, compare_cols]
 
-    # Step 5: Add new records
+    for key in updated_keys:
+        for col in compare_cols:
+            if key in generated_df.index and col in generated_df.columns:
+                final_df.at[key, col] = generated_df.at[key, col]
+
+    # Add new rows
     new_rows_df = generated_df.loc[new_keys]
     final_df = pd.concat([final_df, new_rows_df], axis=0)
 
+    # Drop helper columns before returning
+    final_df = final_df.reset_index().drop(columns=['row_id', 'composite_key'])
+
+    # Convert final_df back to original dtypes
+    for col in final_df.columns:
+        if col in original_dtypes:
+            try:
+                final_df[col] = final_df[col].astype(original_dtypes[col])
+            except Exception as e:
+                comparisonlog.warning(f"Failed to convert '{col}' back to original dtype: {e}")
+
     comparisonlog.info(f"Final updated report rows: {len(final_df)}")
-    comparisonlog.info('*' * 100)
-    
-    return final_df.reset_index()
+    comparisonlog.info("Comparison and update complete.")
+    comparisonlog.info("*" * 100)
+
+    return final_df
+
+
 
 
 def close_logger(name):
@@ -523,6 +566,7 @@ with pd.ExcelWriter(r"data/Users.xlsx", engine='openpyxl', mode='a', if_sheet_ex
     
 generated_report = booking_process(bookings,Addressdetails)
 
+# generated_report.to_excel(r"data/generated_report.xlsx")
 existing_report_path = r"data/report.xlsx"
 
 if os.path.isfile(existing_report_path):

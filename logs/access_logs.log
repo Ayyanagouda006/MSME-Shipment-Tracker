@@ -1,44 +1,15 @@
-2025-04-07 13:33:40 | INFO |  anshul.marele@agraga.com | Login Attempt | SUCCESS
-2025-04-07 13:33:40 | INFO |  anshul.marele@agraga.com | Role Assigned: MSME | SUCCESS
-2025-04-07 13:33:40 | INFO |  anshul.marele@agraga.com | Login Successful | SUCCESS
-2025-04-07 08:34:53 | INFO |  ayyanagouda.r@agraga.com | Login Attempt | SUCCESS
-2025-04-07 08:34:53 | INFO |  ayyanagouda.r@agraga.com | Role Assigned: Admin | SUCCESS
-2025-04-07 08:34:53 | INFO |  ayyanagouda.r@agraga.com | Login Successful | SUCCESS
-2025-04-07 08:35:47 | INFO |  praveen.c@agraga.com | Login Attempt | SUCCESS
-2025-04-07 08:35:47 | INFO |  praveen.c@agraga.com | Role Assigned: MSME | SUCCESS
-2025-04-07 08:35:47 | INFO |  praveen.c@agraga.com | Login Successful | SUCCESS
-2025-04-07 08:36:50 | INFO |  praveen.c@agraga.com | Login Attempt | SUCCESS
-2025-04-07 08:36:50 | INFO |  praveen.c@agraga.com | Role Assigned: MSME | SUCCESS
-2025-04-07 08:36:50 | INFO |  praveen.c@agraga.com | Login Successful | SUCCESS
-2025-04-07 08:39:51 | INFO |  praveen.c@ | Login Attempt | SUCCESS
-2025-04-07 08:39:51 | INFO |  praveen.c@ | Access Denied - Not in Agusers | DENIED
-2025-04-07 08:40:00 | INFO |  praveen.c@agraga.com | Login Attempt | SUCCESS
-2025-04-07 08:40:00 | INFO |  praveen.c@agraga.com | Role Assigned: MSME | SUCCESS
-2025-04-07 08:40:00 | INFO |  praveen.c@agraga.com | Login Successful | SUCCESS
-2025-04-07 08:42:43 | INFO |  manoj.kumar@agraga.com | Login Attempt | SUCCESS
-2025-04-07 08:42:43 | INFO |  manoj.kumar@agraga.com | Role Assigned: Admin | SUCCESS
-2025-04-07 08:42:43 | INFO |  manoj.kumar@agraga.com | Login Successful | SUCCESS
-2025-04-07 09:07:22 | INFO |  anshul.marele@agraga.com | Login Attempt | SUCCESS
-2025-04-07 09:07:22 | INFO |  anshul.marele@agraga.com | Role Assigned: MSME | SUCCESS
-2025-04-07 09:07:22 | INFO |  anshul.marele@agraga.com | Login Successful | SUCCESS
-2025-04-07 09:14:51 | INFO |  ayyanagouda.r@agraga.com | Login Attempt | SUCCESS
-2025-04-07 09:14:51 | INFO |  ayyanagouda.r@agraga.com | Role Assigned: Admin | SUCCESS
-2025-04-07 09:14:51 | INFO |  ayyanagouda.r@agraga.com | Login Successful | SUCCESS
-2025-04-07 11:11:55 | INFO |  ayyanagouda.r@agraga.com | Login Attempt | SUCCESS
-2025-04-07 11:11:55 | INFO |  ayyanagouda.r@agraga.com | Role Assigned: Admin | SUCCESS
-2025-04-07 11:11:55 | INFO |  ayyanagouda.r@agraga.com | Login Successful | SUCCESS
-2025-04-08 03:01:01 | INFO |  ayyanagouda.r@agraga.com | Login Attempt | SUCCESS
-2025-04-08 03:01:01 | INFO |  ayyanagouda.r@agraga.com | Role Assigned: Admin | SUCCESS
-2025-04-08 03:01:01 | INFO |  ayyanagouda.r@agraga.com | Login Successful | SUCCESS
-2025-04-08 03:28:35 | INFO |  anshul.marele@agraga.com | Login Attempt | SUCCESS
-2025-04-08 03:28:35 | INFO |  anshul.marele@agraga.com | Role Assigned: MSME | SUCCESS
-2025-04-08 03:28:35 | INFO |  anshul.marele@agraga.com | Login Successful | SUCCESS
-2025-04-08 03:30:47 | INFO |  anshul.marele@agraga.com | Login Attempt | SUCCESS
-2025-04-08 03:30:47 | INFO |  anshul.marele@agraga.com | Role Assigned: MSME | SUCCESS
-2025-04-08 03:30:47 | INFO |  anshul.marele@agraga.com | Login Successful | SUCCESS
-2025-04-08 03:32:51 | INFO |  anshul.marele@agraga.com | Login Attempt | SUCCESS
-2025-04-08 03:32:51 | INFO |  anshul.marele@agraga.com | Role Assigned: MSME | SUCCESS
-2025-04-08 03:32:51 | INFO |  anshul.marele@agraga.com | Login Successful | SUCCESS
-2025-04-08 03:33:02 | INFO |  shailaja.k@agraga.com | Login Attempt | SUCCESS
-2025-04-08 03:33:02 | INFO |  shailaja.k@agraga.com | Role Assigned: Central Ops | SUCCESS
-2025-04-08 03:33:02 | INFO |  shailaja.k@agraga.com | Login Successful | SUCCESS
+2025-04-14 15:11:55 | INFO |  anshul.marele@agraga.com | Login Attempt | SUCCESS
+2025-04-14 15:11:55 | INFO |  anshul.marele@agraga.com | Role Assigned: MSME | SUCCESS
+2025-04-14 15:11:55 | INFO |  anshul.marele@agraga.com | Login Successful | SUCCESS
+2025-04-14 15:12:38 | INFO |  anshul.marele@agraga.com | Login Attempt | SUCCESS
+2025-04-14 15:12:38 | INFO |  anshul.marele@agraga.com | Role Assigned: MSME | SUCCESS
+2025-04-14 15:12:38 | INFO |  anshul.marele@agraga.com | Login Successful | SUCCESS
+2025-04-14 15:12:52 | INFO |  omprakash.jha@agraga.com | Login Attempt | SUCCESS
+2025-04-14 15:12:52 | INFO |  omprakash.jha@agraga.com | Role Assigned: MSME | SUCCESS
+2025-04-14 15:12:52 | INFO |  omprakash.jha@agraga.com | Login Successful | SUCCESS
+2025-04-14 15:14:29 | INFO |  shailaja.k@agraga.com | Login Attempt | SUCCESS
+2025-04-14 15:14:29 | INFO |  shailaja.k@agraga.com | Role Assigned: Central Ops | SUCCESS
+2025-04-14 15:14:29 | INFO |  shailaja.k@agraga.com | Login Successful | SUCCESS
+2025-04-14 15:17:59 | INFO |  ayyanagouda.r@agraga.com | Login Attempt | SUCCESS
+2025-04-14 15:17:59 | INFO |  ayyanagouda.r@agraga.com | Role Assigned: Admin | SUCCESS
+2025-04-14 15:17:59 | INFO |  ayyanagouda.r@agraga.com | Login Successful | SUCCESS
