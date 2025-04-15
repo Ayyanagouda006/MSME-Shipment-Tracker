@@ -1,96 +1,16 @@
-2025-04-14 15:09:51,339 - INFO - Connecting to MongoDB...
-2025-04-14 15:09:51,346 - INFO - Fetching from Bookings collection
-2025-04-14 15:09:55,450 - INFO - Fetched 120 records from Bookings
-2025-04-14 15:09:55,451 - INFO - Fetching from SHEntities collection
-2025-04-14 15:09:55,756 - INFO - Fetched 3043 SHEntities
-2025-04-14 15:09:55,756 - INFO - Fetching from Bookingdsr collection
-2025-04-14 15:09:56,696 - INFO - Fetched 5985 Bookingdsr records
-2025-04-14 15:09:56,697 - INFO - Fetching from Myactions collection
-2025-04-14 15:10:00,066 - INFO - Filtered to 122 Invoice Acceptance actions
-2025-04-14 15:10:00,066 - INFO - Fetching from Addressdetails collection
-2025-04-14 15:10:00,224 - INFO - Fetched 3497 Addressdetails records
-2025-04-14 15:10:00,230 - INFO - Fetching from Agusers collection
-2025-04-14 15:10:00,325 - INFO - Fetched 397 Agusers records
-2025-04-14 15:10:00,364 - INFO - Merged all datasets successfully
-2025-04-14 15:10:00,400 - INFO - MongoDB connection closed.
-2025-04-14 15:10:00,400 - INFO - ****************************************************************************************************
-2025-04-14 15:13:07,650 - INFO - Connecting to MongoDB...
-2025-04-14 15:13:07,656 - INFO - Fetching from Bookings collection
-2025-04-14 15:13:38,768 - INFO - Fetched 120 records from Bookings
-2025-04-14 15:13:38,769 - INFO - Fetching from SHEntities collection
-2025-04-14 15:13:43,431 - INFO - Fetched 3043 SHEntities
-2025-04-14 15:13:43,431 - INFO - Fetching from Bookingdsr collection
-2025-04-14 15:14:08,697 - INFO - Fetched 5985 Bookingdsr records
-2025-04-14 15:14:08,697 - INFO - Fetching from Myactions collection
-2025-04-14 15:14:17,244 - INFO - Filtered to 122 Invoice Acceptance actions
-2025-04-14 15:14:17,245 - INFO - Fetching from Addressdetails collection
-2025-04-14 15:14:17,402 - INFO - Fetched 3497 Addressdetails records
-2025-04-14 15:14:17,402 - INFO - Fetching from Agusers collection
-2025-04-14 15:14:17,487 - INFO - Fetched 397 Agusers records
-2025-04-14 15:14:17,523 - INFO - Merged all datasets successfully
-2025-04-14 15:14:17,559 - INFO - MongoDB connection closed.
-2025-04-14 15:14:17,559 - INFO - ****************************************************************************************************
-2025-04-14 15:16:23,419 - INFO - Connecting to MongoDB...
-2025-04-14 15:16:23,425 - INFO - Fetching from Bookings collection
-2025-04-14 15:16:50,973 - INFO - Fetched 120 records from Bookings
-2025-04-14 15:16:50,974 - INFO - Fetching from SHEntities collection
-2025-04-14 15:16:51,849 - INFO - Fetched 3043 SHEntities
-2025-04-14 15:16:51,849 - INFO - Fetching from Bookingdsr collection
-2025-04-14 15:16:53,111 - INFO - Fetched 5985 Bookingdsr records
-2025-04-14 15:16:53,112 - INFO - Fetching from Myactions collection
-2025-04-14 15:16:56,824 - INFO - Filtered to 122 Invoice Acceptance actions
-2025-04-14 15:16:56,824 - INFO - Fetching from Addressdetails collection
-2025-04-14 15:16:56,986 - INFO - Fetched 3497 Addressdetails records
-2025-04-14 15:16:56,986 - INFO - Fetching from Agusers collection
-2025-04-14 15:16:57,072 - INFO - Fetched 397 Agusers records
-2025-04-14 15:16:57,107 - INFO - Merged all datasets successfully
-2025-04-14 15:16:57,143 - INFO - MongoDB connection closed.
-2025-04-14 15:16:57,143 - INFO - ****************************************************************************************************
-2025-04-14 10:00:52,043 - INFO - Connecting to MongoDB...
-2025-04-14 10:00:52,046 - INFO - Fetching from Bookings collection
-2025-04-14 10:00:52,162 - INFO - Fetched 120 records from Bookings
-2025-04-14 10:00:52,163 - INFO - Fetching from SHEntities collection
-2025-04-14 10:00:52,188 - INFO - Fetched 3043 SHEntities
-2025-04-14 10:00:52,188 - INFO - Fetching from Bookingdsr collection
-2025-04-14 10:00:52,251 - INFO - Fetched 5985 Bookingdsr records
-2025-04-14 10:00:52,251 - INFO - Fetching from Myactions collection
-2025-04-14 10:00:52,567 - INFO - Filtered to 122 Invoice Acceptance actions
-2025-04-14 10:00:52,567 - INFO - Fetching from Addressdetails collection
-2025-04-14 10:00:52,578 - INFO - Fetched 3497 Addressdetails records
-2025-04-14 10:00:52,578 - INFO - Fetching from Agusers collection
-2025-04-14 10:00:52,586 - INFO - Fetched 397 Agusers records
-2025-04-14 10:00:52,622 - INFO - Merged all datasets successfully
-2025-04-14 10:00:52,623 - INFO - MongoDB connection closed.
-2025-04-14 10:00:52,623 - INFO - ****************************************************************************************************
-2025-04-14 15:36:32,030 - INFO - Connecting to MongoDB...
-2025-04-14 15:36:32,038 - INFO - Fetching from Bookings collection
-2025-04-14 15:36:55,398 - INFO - Fetched 120 records from Bookings
-2025-04-14 15:36:55,398 - INFO - Fetching from SHEntities collection
-2025-04-14 15:36:55,794 - INFO - Fetched 3043 SHEntities
-2025-04-14 15:36:55,794 - INFO - Fetching from Bookingdsr collection
-2025-04-14 15:36:56,870 - INFO - Fetched 5985 Bookingdsr records
-2025-04-14 15:36:56,870 - INFO - Fetching from Myactions collection
-2025-04-14 15:37:00,415 - INFO - Filtered to 122 Invoice Acceptance actions
-2025-04-14 15:37:00,416 - INFO - Fetching from Addressdetails collection
-2025-04-14 15:37:00,585 - INFO - Fetched 3497 Addressdetails records
-2025-04-14 15:37:00,585 - INFO - Fetching from Agusers collection
-2025-04-14 15:37:00,672 - INFO - Fetched 397 Agusers records
-2025-04-14 15:37:00,719 - INFO - Merged all datasets successfully
-2025-04-14 15:37:00,756 - INFO - MongoDB connection closed.
-2025-04-14 15:37:00,757 - INFO - ****************************************************************************************************
-2025-04-15 05:55:09,783 - INFO - Connecting to MongoDB...
-2025-04-15 05:55:09,786 - INFO - Fetching from Bookings collection
-2025-04-15 05:55:09,901 - INFO - Fetched 120 records from Bookings
-2025-04-15 05:55:09,901 - INFO - Fetching from SHEntities collection
-2025-04-15 05:55:09,924 - INFO - Fetched 3043 SHEntities
-2025-04-15 05:55:09,924 - INFO - Fetching from Bookingdsr collection
-2025-04-15 05:55:09,989 - INFO - Fetched 5986 Bookingdsr records
-2025-04-15 05:55:09,989 - INFO - Fetching from Myactions collection
-2025-04-15 05:55:10,312 - INFO - Filtered to 122 Invoice Acceptance actions
-2025-04-15 05:55:10,312 - INFO - Fetching from Addressdetails collection
-2025-04-15 05:55:10,324 - INFO - Fetched 3497 Addressdetails records
-2025-04-15 05:55:10,324 - INFO - Fetching from Agusers collection
-2025-04-15 05:55:10,334 - INFO - Fetched 397 Agusers records
-2025-04-15 05:55:10,370 - INFO - Merged all datasets successfully
-2025-04-15 05:55:10,371 - INFO - MongoDB connection closed.
-2025-04-15 05:55:10,371 - INFO - ****************************************************************************************************
+2025-04-15 12:42:24,898 - INFO - Connecting to MongoDB...
+2025-04-15 12:42:24,904 - INFO - Fetching from Bookings collection
+2025-04-15 12:42:36,250 - INFO - Fetched 121 records from Bookings
+2025-04-15 12:42:36,250 - INFO - Fetching from SHEntities collection
+2025-04-15 12:42:36,730 - INFO - Fetched 3043 SHEntities
+2025-04-15 12:42:36,730 - INFO - Fetching from Bookingdsr collection
+2025-04-15 12:42:38,193 - INFO - Fetched 5988 Bookingdsr records
+2025-04-15 12:42:38,194 - INFO - Fetching from Myactions collection
+2025-04-15 12:42:43,137 - INFO - Filtered to 123 Invoice Acceptance actions
+2025-04-15 12:42:43,137 - INFO - Fetching from Addressdetails collection
+2025-04-15 12:42:43,362 - INFO - Fetched 3498 Addressdetails records
+2025-04-15 12:42:43,367 - INFO - Fetching from Agusers collection
+2025-04-15 12:42:43,530 - INFO - Fetched 397 Agusers records
+2025-04-15 12:42:43,566 - INFO - Merged all datasets successfully
+2025-04-15 12:42:43,618 - INFO - MongoDB connection closed.
+2025-04-15 12:42:43,618 - INFO - ****************************************************************************************************

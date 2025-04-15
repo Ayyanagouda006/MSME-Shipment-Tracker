@@ -380,7 +380,9 @@ def booking_process(bookings, Addressdetails):
                         'Updated Status Remarks': remarks,
                         'PRO Number': '',
                         'Storage Incurred (Days)': '',
-                        'Remarks':''
+                        'Remarks':'',
+                        'status':'',
+                        'pickup type':''
                     }
 
                     result_rows.append(row_data)
@@ -429,7 +431,9 @@ def booking_process(bookings, Addressdetails):
                     'Updated Status Remarks': remarks,
                     'PRO Number': '',
                     'Storage Incurred (Days)': '',
-                    'Remarks':''
+                    'Remarks':'',
+                    'status':'',
+                    'pickup type':''
                 }
 
                 result_rows.append(row_data)
@@ -446,7 +450,7 @@ def booking_process(bookings, Addressdetails):
         "Packages", "Pallets", "importClearance", "Duty Invoice", "Duty Invoice Status", "Actual # of Pallets", "Ready for Pick-up Date",
         "LFD", "DO Release Approved?", "HBL Released Date", "DO Released Date", "Pick-up Date", "Pick up number",
         "Delivery Appointment Date", "Delivery Date", "Vendor Delivery Invoice", "Updated Status Remarks", "PRO Number", "Storage Incurred (Days)",
-        "Remarks"
+        "Remarks","status","pickup type"
     ]
 
     final_df = final_df.reindex(columns=desired_columns)
@@ -462,7 +466,7 @@ def process_report(existing_report, generated_report):
         'ISF Filing', 'CFS', 'Freight Broker', 'Transporter', 'Delivery Quote',
         'Actual # of Pallets', 'Ready for Pick-up Date', 'DO Release Approved?',
         'HBL Released Date', 'Pick up number', 'Delivery Appointment Date',
-        'Vendor Delivery Invoice', 'PRO Number', 'Storage Incurred (Days)', 'Remarks'
+        'Vendor Delivery Invoice', 'PRO Number', 'Storage Incurred (Days)', 'Remarks','status','pickup type'
     ]
 
     # Save original dtypes of existing report
