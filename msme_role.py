@@ -48,14 +48,32 @@ def display_msme_report():
         st.write("### 📝 MSME Editable Report")
 
         # --- FILTER SECTION ---
+
+        # Prepare filter options
         booking_options = sorted(df["Agraga Booking #"].dropna().unique())
         customer_options = sorted(df["Customer Name"].dropna().unique())
+        fba_options = sorted(df["FBA Code"].dropna().unique())
+        pickup_options = sorted(df["Pick up number"].dropna().unique())
+        cfs_options = sorted(df["CFS"].dropna().unique())
+        eta_options = sorted(df["ETA"].dropna().astype(str).unique())  # convert to string if datetime
 
+        # First row: Booking # and Customer Name
         col1, col2 = st.columns(2)
         with col1:
             selected_booking = st.selectbox("Filter by Agraga Booking #", options=["All"] + booking_options)
         with col2:
             selected_customer = st.selectbox("Filter by Customer Name", options=["All"] + customer_options)
+
+        # Second row: FBA Code, Pick up number, CFS, ETA
+        col3, col4, col5, col6 = st.columns(4)
+        with col3:
+            selected_fba = st.selectbox("Filter by FBA Code", options=["All"] + fba_options)
+        with col4:
+            selected_pickup = st.selectbox("Filter by Pick up number", options=["All"] + pickup_options)
+        with col5:
+            selected_cfs = st.selectbox("Filter by CFS", options=["All"] + cfs_options)
+        with col6:
+            selected_eta = st.selectbox("Filter by ETA", options=["All"] + eta_options)
 
         # Apply filters
         filtered_df = df.copy()
@@ -63,6 +81,15 @@ def display_msme_report():
             filtered_df = filtered_df[filtered_df["Agraga Booking #"] == selected_booking]
         if selected_customer != "All":
             filtered_df = filtered_df[filtered_df["Customer Name"] == selected_customer]
+        if selected_fba != "All":
+            filtered_df = filtered_df[filtered_df["FBA Code"] == selected_fba]
+        if selected_pickup != "All":
+            filtered_df = filtered_df[filtered_df["Pick up number"] == selected_pickup]
+        if selected_cfs != "All":
+            filtered_df = filtered_df[filtered_df["CFS"] == selected_cfs]
+        if selected_eta != "All":
+            filtered_df = filtered_df[filtered_df["ETA"].astype(str) == selected_eta]
+
 
         # --- DROPDOWN OPTIONS ---
         freight_brokers = ['Amazon Freight', 'Nolan Transportation Group','HeyPrimo','Ex-Freight','YouParcel']
