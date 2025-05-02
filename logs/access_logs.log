@@ -28,3 +28,20 @@
 2025-04-16 12:03:10 | INFO |  anoop.raghavan@agraga.com | Login Attempt | SUCCESS
 2025-04-16 12:03:10 | INFO |  anoop.raghavan@agraga.com | Role Assigned: Admin | SUCCESS
 2025-04-16 12:03:10 | INFO |  anoop.raghavan@agraga.com | Login Successful | SUCCESS
+2025-04-21 13:53:44 | INFO |  omprakash.jha@agraga.com | Login Attempt | SUCCESS
+2025-04-21 13:53:44 | INFO |  omprakash.jha@agraga.com | Role Assigned: MSME | SUCCESS
+2025-04-21 13:53:44 | INFO |  omprakash.jha@agraga.com | Login Successful | SUCCESS
+2025-04-24 19:05:10 | INFO |  jaison.joju@agraga.com | Login Attempt | SUCCESS
+2025-04-24 19:05:10 | INFO |  jaison.joju@agraga.com | Role Assigned: Central Ops | SUCCESS
+2025-04-24 19:05:10 | INFO |  jaison.joju@agraga.com | Login Successful | SUCCESS
+2025-04-24 19:20:36 | INFO |  jais | Login Attempt | SUCCESS
+2025-04-24 19:20:36 | INFO |  jais | Access Denied - Not in Agusers | DENIED
+2025-04-24 19:20:44 | INFO |  jaison.joju@agraga.com | Login Attempt | SUCCESS
+2025-04-24 19:20:44 | INFO |  jaison.joju@agraga.com | Role Assigned: Central Ops | SUCCESS
+2025-04-24 19:20:44 | INFO |  jaison.joju@agraga.com | Login Successful | SUCCESS
+2025-04-24 19:20:53 | INFO |  jaison.joju@agraga.com | Login Attempt | SUCCESS
+2025-04-24 19:20:53 | INFO |  jaison.joju@agraga.com | Role Assigned: Central Ops | SUCCESS
+2025-04-24 19:20:53 | INFO |  jaison.joju@agraga.com | Login Successful | SUCCESS
+2025-04-25 12:53:00 | INFO |  jaison.joju@agraga.com | Login Attempt | SUCCESS
+2025-04-25 12:53:00 | INFO |  jaison.joju@agraga.com | Role Assigned: Central Ops | SUCCESS
+2025-04-25 12:53:00 | INFO |  jaison.joju@agraga.com | Login Successful | SUCCESS
